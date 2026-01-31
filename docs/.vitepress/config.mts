@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import llmstxt from 'vitepress-plugin-llms'
 
 export default defineConfig({
   title: "Invite Tracker",
@@ -100,5 +101,9 @@ export default defineConfig({
     search: {
       provider: 'local'
     }
+  },
+
+  vite: {
+    plugins: [llmstxt()]
   }
 })
