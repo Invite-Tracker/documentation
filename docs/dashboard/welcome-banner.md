@@ -14,6 +14,8 @@ To enable welcome banners, navigate to your server's **Join Messages** page on t
 2. Choose your banner type (Normal or Animated)
 3. Use the banner editor to customize your design
 
+![Enable Banner](/assets/welcome-banner/enable-banner.png)
+
 ## Banner Editor
 
 The banner editor provides a visual canvas where you can add and arrange elements to create your perfect welcome banner.
@@ -34,6 +36,8 @@ You can add various elements to your banner:
 - **Resizing** - Use the handles to resize elements
 - **Layering** - Arrange elements in front of or behind other elements
 - **Deleting** - Select an element and delete it
+
+![Banner Editor](/assets/welcome-banner/banner-editor.png)
 
 ## Avatar Placeholders
 
@@ -62,6 +66,8 @@ See the full list of available variables on the [Variables](/dashboard/messages/
 ## Templates
 
 The banner editor includes a template carousel with pre-built designs you can use as a starting point. Browse through the available templates and click to apply one to your banner.
+
+![Templates](/assets/welcome-banner/template.png)
 
 ::: info
 Templates provide a quick starting point. You can fully customize any template after applying it.

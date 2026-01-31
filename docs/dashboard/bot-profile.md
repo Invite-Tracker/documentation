@@ -16,6 +16,9 @@ Bot profile customization lets you personalize how Invite Tracker presents itsel
 2. Select **Bot Profile** from the plugins menu
 3. Customize the available options
 
+![Button](/assets/bot-profile/bot-profile-button.png)
+
+
 ## Customization Options
 
 ### Avatar
@@ -37,6 +40,8 @@ The avatar should be a square image for best results. Recommended size is 512x51
 3. Preview the result
 4. Click **Save Changes**
 
+![Avatar](/assets/bot-profile/server-avatar.png)
+
 ### Banner
 
 Set a custom banner image that appears on the bot's profile in your server.
@@ -52,6 +57,8 @@ Banners are displayed at the top of the bot's profile popup. Recommended aspect 
 3. Preview the result
 4. Click **Save Changes**
 
+<img src="/assets/bot-profile/server-banner.png" alt="Banner" style="max-width:100%; height:auto;">
+
 ### Nickname
 
 Set a custom nickname for the bot in your server. This changes how the bot's name appears in:
@@ -59,6 +66,8 @@ Set a custom nickname for the bot in your server. This changes how the bot's nam
 - The server member list
 - Message author names
 - Mentions and references
+
+![Nickname](/assets/bot-profile/server-nickname.png)
 
 ::: tip
 Choose a nickname that fits your server's theme while still being recognizable as your invite tracking bot.
@@ -73,6 +82,9 @@ Write a custom description for the bot that appears in its profile. The bio can 
 - Describe what the bot does in your server
 - Include links to your server's rules or help channels
 - Add personality that matches your community
+
+
+![Bio](/assets/bot-profile/server-bio.png)
 
 ## Removing Customizations
 

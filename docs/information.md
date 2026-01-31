@@ -10,7 +10,7 @@ Developer Mode is a useful utility tool offered by Discord. Some of Invite Track
 
 ### Enabling Developer Mode
 
-![Enabling Developer Mode](https://imgur.com/qz8fqTC.gif)
+![Enabling Developer Mode](/assets/general/developer_mode.gif)
 
 ## Copying IDs
 
@@ -18,15 +18,15 @@ IDs are special "codes" that are different for all users, channels, and messages
 
 ### Copying a Channel ID
 
-![Copying a Channel ID](https://imgur.com/CzGUzVh.gif)
+![Copying a Channel ID](/assets/general/channel_id.gif)
 
 ### Copying a Message ID
 
-![Copying a Message ID](https://imgur.com/hEQUKmI.gif)
+![Copying a Message ID](/assets/general/message_id.gif)
 
 ### Copying a User ID
 
-![Copying a User ID](https://imgur.com/8DC1Cez.gif)
+![Copying a User ID](/assets/general/user_id.gif)
 
 ## Syntax
 
