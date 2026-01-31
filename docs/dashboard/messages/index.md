@@ -1,6 +1,6 @@
 # Join, Join DM, and Leave Messages
 
-These plugins let you create highly customizable join, join DM and leave messages.
+These plugins let you create highly customizable join, join DM and leave messages. You can use text messages, rich embeds (Premium), or even dynamic image banners (Premium) to welcome new members.
 
 ## Useful Information
 
@@ -161,4 +161,17 @@ Pay attention to the small numbers under a few of the text boxes and buttons. Th
 
 ::: warning
 You cannot use embeds for join DM messages.
+:::
+
+## <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Welcome Banners
+
+In addition to text and embed messages, Premium users can create dynamic image banners that are sent when members join. Welcome banners allow you to create visually stunning welcome messages with:
+
+- Custom backgrounds and images
+- The joining member's avatar
+- Dynamic text with variables
+- Shapes and design elements
+
+::: info
+For detailed information on creating and customizing welcome banners, see the [Welcome Banner](/dashboard/welcome-banner) documentation.
 :::

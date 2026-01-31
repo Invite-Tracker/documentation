@@ -46,3 +46,9 @@ The explanation for all the general commands available for Invite Tracker.
 | `/leaderboard invites [type<all time\|daily\|weekly>] [@role]` | Displays the server's invite leaderboard. You can also choose a type to display a leaderboard for all time, daily, and weekly. |
 | `/leaderboard messages [type<all time\|daily\|weekly>] [@role]` | Displays the server's message leaderboard. You can also choose a type to display a leaderboard for all time, daily, and weekly. |
 | `/stats <joins\|leaves\|combined>` | Displays the server's statistics via a graph |
+
+::: info
+The `[@role]` parameter allows you to filter the leaderboard to only show members with a specific role. This is useful for viewing leaderboards for specific teams, tiers, or groups in your server.
+
+<img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Role filtering on leaderboards is a Premium feature.
+:::

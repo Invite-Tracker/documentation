@@ -18,6 +18,7 @@ You can now create giveaways inside a thread with the `/giveaway create` command
 | `/giveaway delete <message id>` | Deletes a specified giveaway |
 | `/giveaway end <message id>` | Ends a specified giveaway |
 | `/giveaway list` | Lists all of the server's currently active giveaways and their message id's |
+| `/giveaway list_participants <message id>` | Shows all participants of a specific giveaway with pagination |
 | `/giveaway reroll <message id>` | Chooses new winners for the specified giveaway |
 | `/giveaway scheduled` | Lists all of the server's scheduled giveaways |
 | `/giveaway templates` | Lists all of the server's giveaway templates |

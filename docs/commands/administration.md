@@ -21,3 +21,45 @@ The explanation for all the administration commands available for Invite Tracker
 | :star: `/massban <@user\|invite_code>` | Allows you to ban everyone invited by a specific user or you can choose to mass ban everyone invited by a specific invite code. |
 | :star: `/exportleaderboard <leaderboard_type>` | Allows you to export the invites or messages leaderboard type. This gives you raw data that can be downloaded from a .csv file format. |
 | :star: `/exportinvitedlist <@user\|invite_code\|invite_label\|filter_role>` | Allows you to export a list of the specified type to a downloadable .csv file format. What are Invite Labels? Click [here](/dashboard/invite-tracking#invite-label) for more info. |
+
+::: info
+The export commands have a cooldown of 5 minutes to prevent abuse.
+:::
+
+## CSV Export Formats
+
+### Leaderboard Export
+
+The `/exportleaderboard` command exports a CSV file with the following columns:
+
+| Column | Description |
+| --- | --- |
+| `user_id` | The Discord user ID |
+| `username` | The user's Discord username |
+| `regular_invites` | Number of regular/confirmed invites |
+| `left_invites` | Number of invites where the invited user left |
+| `fake_invites` | Number of invites flagged as fake |
+| `bonus_invites` | Number of manually added bonus invites |
+| `total_invites` | Calculated total (regular - left - fake + bonus) |
+
+For message leaderboards, the export includes:
+
+| Column | Description |
+| --- | --- |
+| `user_id` | The Discord user ID |
+| `username` | The user's Discord username |
+| `message_count` | Total number of counted messages |
+
+### Invited List Export
+
+The `/exportinvitedlist` command exports a CSV file with the following columns:
+
+| Column | Description |
+| --- | --- |
+| `user_id` | The Discord user ID of the invited member |
+| `username` | The invited member's Discord username |
+| `joined_at` | When the member joined the server |
+| `invite_code` | The invite code used (if known) |
+| `inviter_id` | The Discord user ID of the inviter |
+| `inviter_username` | The inviter's Discord username |
+| `is_fake` | Whether the invite was flagged as fake |
