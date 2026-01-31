@@ -76,6 +76,17 @@ You can use variables when making a join, joinDM or Leave message. Variables are
 | Variable | Description | Where to use |
 | --- | --- | --- |
 | `%guild_name%` | Server's name | `JOIN`, `LEAVE`, `JOIN DM` |
-| `%guild_avatar%` | Server's icon | `JOIN`, `LEAVE`, `JOIN DM` |
+| `%guild_avatar%` | Server's icon URL | `JOIN`, `LEAVE`, `JOIN DM` |
+| `%guild_icon%` | Server's icon URL (alias for guild_avatar) | `JOIN`, `LEAVE`, `JOIN DM` |
 | `%guild_count%` | Number of members in the server | `JOIN`, `LEAVE`, `JOIN DM` |
 | `%guild_count_ordinal%` | Number of members in the server as an ordinal number (1st / 2nd / 3rd) | `JOIN`, `LEAVE`, `JOIN DM` |
+
+## Embed-Specific Variables
+
+| Variable | Description | Where to use |
+| --- | --- | --- |
+| `%random_color%` | Generates a random color for embed borders | `JOIN`, `LEAVE` (embeds only) |
+
+::: tip
+The `%random_color%` variable is useful when you want each welcome message to have a unique, randomized embed color. Use it in the embed color field.
+:::

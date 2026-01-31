@@ -78,6 +78,24 @@ This switch decides the effect of the [reward roles](#reward-roles) feature for 
 
 ![Highest Mode](/assets/message-counting/highest-mode.png)
 
+### Example
+
+Suppose you have the following reward roles configured:
+- **Bronze** at 100 messages
+- **Silver** at 500 messages
+- **Gold** at 1000 messages
+
+If a user reaches 1000 messages:
+
+| Highest Mode | Roles the user has |
+| --- | --- |
+| **Disabled** | Bronze, Silver, and Gold (all three roles) |
+| **Enabled** | Gold only (previous roles are removed) |
+
+::: tip
+Enable Highest Mode if you want reward roles to represent a user's current "tier" or "rank". Disable it if you want roles to accumulate as achievements.
+:::
+
 ## Reward Role Announcements
 
 *Reward Role Announcements* allows the bot to send a message when the user reaches a reward role to the same channel or the selected channel.

@@ -55,9 +55,11 @@ export default defineConfig({
               items: [
                 { text: 'Overview', link: '/dashboard/messages/' },
                 { text: 'Variables', link: '/dashboard/messages/variables' },
-                { text: 'Types', link: '/dashboard/messages/types' }
+                { text: 'Types', link: '/dashboard/messages/types' },
+                { text: 'Welcome Banner', link: '/dashboard/welcome-banner' }
               ]
             },
+            { text: 'Bot Profile', link: '/dashboard/bot-profile' },
             { text: 'Custom Bot', link: '/dashboard/custom-bot' },
             { text: 'My Account', link: '/dashboard/my-account' }
           ]

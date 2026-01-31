@@ -9,9 +9,13 @@ The *verification level* of your server is the type of verification in your serv
 There are 4 verification levels:
 
 - **Disabled**: The verification plugin of your server is turned off and will not function.
-- **Button**: Requires new members to click a button created by Invite Tracker to get their verification role.
-- **Captcha**: Requires new members to solve a captcha sent by Invite Tracker to get their verification role.
-- **Website**: Requires new members to solve a captcha on our website. This offers the best protection against bots and raids.
+- **Button**: Requires new members to click a button created by Invite Tracker to get their verification role. This is the simplest verification method.
+- **Captcha**: Requires new members to solve an image-based captcha sent by Invite Tracker via DM to get their verification role. The captcha displays distorted text that users must type correctly.
+- **Website**: Requires new members to complete verification on the Invite Tracker website. When a member joins, they receive a link that takes them to a secure verification page where they solve an hCaptcha challenge. This offers the best protection against bots and raids because:
+  - hCaptcha provides advanced bot detection
+  - The verification happens on a controlled environment
+  - It's harder for automated tools to bypass
+  - Users must have a valid browser session
 
 ![Verification Level](/assets/verification/verification-level.png)
 
