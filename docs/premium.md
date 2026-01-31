@@ -12,7 +12,7 @@ You may wonder why we are even offering a premium version of Invite Tracker in t
 
 ## What perks does it offer and where do I buy it?
 
-Curious about what features get unlocked, what limits get raised, and how to buy Invite Tracker Premium? Check out our [Feature Comparison](/premium-features) page for a detailed breakdown of Free vs Premium features, or visit the link below to see pricing and purchase options.
+Curious about what features get unlocked, what limits get raised, and how to buy Invite Tracker Premium? Then check out the link below. Everything unlockable via buying Invite Tracker Premium is listed there.
 
 [https://invite-tracker.com/premium](https://invite-tracker.com/premium)
 
