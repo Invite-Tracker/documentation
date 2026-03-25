@@ -35,20 +35,18 @@ The `/exportleaderboard` command exports a CSV file with the following columns:
 | Column | Description |
 | --- | --- |
 | `user_id` | The Discord user ID |
-| `username` | The user's Discord username |
+| `invites` | Calculated total invites |
 | `regular_invites` | Number of regular/confirmed invites |
 | `left_invites` | Number of invites where the invited user left |
 | `fake_invites` | Number of invites flagged as fake |
 | `bonus_invites` | Number of manually added bonus invites |
-| `total_invites` | Calculated total (regular - left - fake + bonus) |
 
 For message leaderboards, the export includes:
 
 | Column | Description |
 | --- | --- |
 | `user_id` | The Discord user ID |
-| `username` | The user's Discord username |
-| `message_count` | Total number of counted messages |
+| `messages` | Total number of counted messages |
 
 ### Invited List Export
 
@@ -57,9 +55,5 @@ The `/exportinvitedlist` command exports a CSV file with the following columns:
 | Column | Description |
 | --- | --- |
 | `user_id` | The Discord user ID of the invited member |
-| `username` | The invited member's Discord username |
 | `joined_at` | When the member joined the server |
-| `invite_code` | The invite code used (if known) |
-| `inviter_id` | The Discord user ID of the inviter |
-| `inviter_username` | The inviter's Discord username |
-| `is_fake` | Whether the invite was flagged as fake |
+| `fake` | Whether the invite was flagged as fake |

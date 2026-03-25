@@ -10,14 +10,13 @@ The explanation for all the general commands available for Invite Tracker.
 | `/roleinfo <@role>` | Displays information about a specified role |
 | `/serverinfo` | Displays information about the server |
 | `/userinfo [@user]` | Displays information about yourself or a specified member |
-| `/ping` | Displays the bot's latency |
 
 ## Invites
 
 | Command | Description |
 | --- | --- |
-| `/findlink [mobile_mode: <True\|False>]` | Displays the invite link you own which is located the highest in the guild settings |
-| `/invitecodes [@user]` | Displays all of your, or the specified member's, invite codes in descending order |
+| `/findlink [mobile_mode: <True\|False>]` | Displays one of your invite links. If `mobile_mode` is enabled, it returns a plain copyable response instead of an embed. |
+| `/invitecodes [@user]` | Displays all of your invite codes in descending order. Administrators can also view another member's invite codes. |
 | :star: `/invitedlist <@user\|invite_code\|invite_label\|filter_role>` | Displays a list of users who were invited via you, the specified member, or invite link. There is also a further option to filter that to users with a specific role. |
 | :star: `/inviter <@user>` | Displays who invited the specified member |
 | `/invites [@user]` | Displays the number of invites you or the specified member has |
@@ -45,7 +44,9 @@ The explanation for all the general commands available for Invite Tracker.
 | --- | --- |
 | `/leaderboard invites [type<all time\|daily\|weekly>] [@role]` | Displays the server's invite leaderboard. You can also choose a type to display a leaderboard for all time, daily, and weekly. |
 | `/leaderboard messages [type<all time\|daily\|weekly>] [@role]` | Displays the server's message leaderboard. You can also choose a type to display a leaderboard for all time, daily, and weekly. |
-| `/stats <joins\|leaves\|combined>` | Displays the server's statistics via a graph |
+| `/stats joins` | Displays the server's join statistics via a graph |
+| `/stats leaves` | Displays the server's leave statistics via a graph |
+| `/stats combined` | Displays the server's combined join and leave statistics via a graph |
 
 ::: info
 The `[@role]` parameter allows you to filter the leaderboard to only show members with a specific role. This is useful for viewing leaderboards for specific teams, tiers, or groups in your server.

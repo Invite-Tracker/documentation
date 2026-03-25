@@ -18,13 +18,12 @@ You can now create giveaways inside a thread with the `/giveaway create` command
 | `/giveaway delete <message id>` | Deletes a specified giveaway |
 | `/giveaway end <message id>` | Ends a specified giveaway |
 | `/giveaway list` | Lists all of the server's currently active giveaways and their message id's |
-| `/giveaway list_participants <message id>` | Shows all participants of a specific giveaway with pagination |
 | `/giveaway reroll <message id>` | Chooses new winners for the specified giveaway |
 | `/giveaway scheduled` | Lists all of the server's scheduled giveaways |
 | `/giveaway templates` | Lists all of the server's giveaway templates |
 
 ::: info
-The format for giveaways is a number than the time variable. For example 5d = 5 days, 3d4h30m = 3 days, 4 hours, and 30 mins. The following variables are s = seconds, m = minutes, h = hours, and d = days.
+The format for giveaways is a number followed by the time variable. For example `5d` = 5 days, `3w2h30m` = 3 weeks, 2 hours, and 30 minutes. The supported variables are `s` = seconds, `m` = minutes, `h` = hours, `d` = days, and `w` = weeks.
 :::
 
 ::: info
@@ -40,13 +39,14 @@ When deleting a giveaway, Invite Tracker just permanently removes it without cho
 | Argument | Description |
 | --- | --- |
 | `[messages_required: <number>]` | Requires members to have at least the specified amount of messages in order to be able to join the giveaway |
-| `[role_bonus_entries: <@role> <number>]` | Assigns bonus entries to members with the specified roles |
+| `[roles_bonus_entries: <@role> <number>]` | Assigns bonus entries to members with the specified roles |
 | `[roles_required: <@role>]` | The roles required to enter the giveaway. |
 | `[roles_required_config: <all\|one of>]` | Whether to require all roles or one of the roles selected in roles_required. |
-| :star: `[winner_roles: <@role>]` | Winner roles will be automatically assigned to the winners of the giveaway |
+| :star: `[winners_roles: <@role>]` | Winner roles will be automatically assigned to the winners of the giveaway |
 
 ::: info
-You can configure multiple roles in arguments. Simply just add a new one after the first one.
+For `winners_roles` and `roles_required`, mention multiple roles in the same option value, for example `@role1 @role2 @role3`.
+For `roles_bonus_entries`, use role-entry pairs in the same option value, for example `@role1 10 @role2 20`.
 :::
 
 ### /giveaway reroll
