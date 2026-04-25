@@ -94,7 +94,7 @@ Alternatively you can provide the bot with **Administrator** permissions by addi
 
 ### The user has not created this link
 
-They may be using another user's link. You can check if you own a link by running `/findlink`. Vanity URLs also do not count as invites. One use invites will not count as they are deleted after being used, make sure you're creating an invite with more than one use.
+They may be using another user's link. You can check if you own a link by running `/findlink`. Vanity URLs also do not count as invites. 
 
 ### The link being used did not register
 

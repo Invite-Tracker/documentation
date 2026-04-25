@@ -40,7 +40,7 @@ The `unknown` message is very rare. There are only a few reasons why you would g
 
 **2:** Multiple people joined at the same time. (Impossible to fix)
 
-**3:** The invites made are not being registered with discord. One use invite links will not track.
+**3:** The invites made are not being registered with Discord. (You will have to make a new Invite Link)
 
 **4:** The bot just restarted and your server's invites were not in the bot's custom cache at that time, though they should be now. Remember that this should only be happening once after a bot restart. (Impossible to fix)
 :::
