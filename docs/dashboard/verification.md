@@ -20,7 +20,11 @@ There are 4 verification levels:
 ![Verification Level](/assets/verification/verification-level.png)
 
 ::: info
-Selecting the **Button** option will cause a new, blue bar to appear. Clicking this will cause Invite Tracker to attempt to send a verification button to your server's [verification channel](#verification-channel). If Invite Tracker fails, please grant it the required permissions for that channel.
+When selecting a level you must also ensure that you click **Send Verification Panel**. 
+
+Clicking this will cause Invite Tracker to attempt to send a verification button to your server's [verification channel](#verification-channel). 
+
+If Invite Tracker fails, please grant it the required permissions for that channel.
 :::
 
 ::: tip
@@ -29,7 +33,7 @@ We recommend using the **Website** option for this feature as it is the most sec
 
 ## Verification Timeout
 
-The *verification timeout* of your server is the number of seconds that need to pass before an unverified user is automatically kicked/banned from the server.
+The *verification timeout* is the number of seconds an unverified user has to verify before being automatically kicked or banned. This only applies if your [verification action](#verification-action) is set to kick or ban.
 
 ![Verification Timeout](/assets/verification/verification-timeout.png)
 
@@ -49,6 +53,7 @@ There are two *verification actions*:
 
 - **Kick**: If a user does not verify within the *verification timeout*, they will be kicked from the server.
 - **Ban**: If a user does not verify within the *verification timeout*, they will be banned from the server.
+- **No action**: If a user does not verify within the *verification timeout*, nothing will happen.
 
 ![Verification Action](/assets/verification/verification-action.png)
 
@@ -72,7 +77,7 @@ When configuring the Verification Role in your server, make sure the Invite Trac
 
 ## Verification Channel
 
-The *verification channel* of your server is the channel where the verification message will be sent if the new member has their DMs closed.
+The *verification channel* of your server is the channel where the verification message will be sent.
 
 ![Verification Channel](/assets/verification/verification-channel.png)
 
@@ -82,7 +87,7 @@ Remember to give Invite Tracker the correct [permissions](/faq#what-are-the-requ
 
 ## <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Verification Custom Embed
 
-*Verification Custom Embed* allows you to customize the embed for the button [verification level](#verification-level) option.
+*Verification Custom Embed* allows you to customize the embed for your [verification channel](#verification-channel).
 
 ![Verification Custom Embed](/assets/verification/verification-custom-embed.png)
 
@@ -90,7 +95,7 @@ Once enabled, you can customize what the embed looks like. The new embed is sent
 
 ## Verification Logs
 
-*Verification logs* are messages sent by Invite Tracker to a specific channel that notify you whether new members managed to verify, failed the verification, or did not verify within the *verification timeout*.
+*Verification logs* are messages sent by Invite Tracker to a specific channel, notifying you whether new members verified successfully, failed verification, or [timed out](#verification-timeout).
 
 ![Verification Logs](/assets/verification/verification-logs.png)
 
