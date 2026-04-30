@@ -69,9 +69,10 @@ Invite Labels allow you to label specific invite codes to track where members ar
 
 ### Setting Up an Invite Label
 
-1. Paste your invite link or code (e.g., `discord.gg/someinvite` or just `someinvite`)
-2. Enter a custom text label to identify this invite source
-3. **(Optional)** Select a role to automatically assign to members who join via this invite
+1. Select your invite code type (e.g, "Regular Invite Code" or "Server Vanity Invite")
+2. Paste your invite link or code (e.g., `discord.gg/someinvite` or just `someinvite`)
+3. Enter a custom text label to identify this invite source
+4. **(Optional)** Select a role to automatically assign to members who join via this invite
 
 ### Auto-Role Assignment
 
@@ -95,8 +96,4 @@ You can use the `%invite_label%` variable for your join, join DM, and leave mess
 Free servers can only have a maximum of 1 invite label.
 
 Premium servers can have an unlimited amount of invite labels.
-:::
-
-::: danger
-Invite Labels do not support custom invite links (vanity URLs).
 :::
