@@ -50,6 +50,15 @@ export default defineConfig({
             { text: 'Pin Statistics', link: '/dashboard/pin-statistics' },
             { text: 'Giveaways', link: '/dashboard/giveaways' },
             {
+              text: 'Tickets',
+              collapsed: false,
+              items: [
+                { text: 'Overview', link: '/dashboard/tickets/index' },
+                { text: 'Templates', link: '/dashboard/tickets/templates' },
+                { text: 'History', link: '/dashboard/tickets/history' },
+              ]
+            },
+            {
               text: 'Join/Leave Messages',
               collapsed: false,
               items: [
@@ -72,7 +81,8 @@ export default defineConfig({
             { text: 'Management', link: '/commands/management' },
             { text: 'Giveaway', link: '/commands/giveaway' },
             { text: 'Verification', link: '/commands/verification' },
-            { text: 'Premium', link: '/commands/premium' }
+            { text: 'Premium', link: '/commands/premium' },
+            { text: 'Tickets', link: '/commands/tickets' }
           ]
         },
         {
