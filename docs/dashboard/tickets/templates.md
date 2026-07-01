@@ -2,7 +2,7 @@
 
 Ticket templates define how new tickets are created and managed. Create templates from your server's dashboard by opening **Tickets** -> **Templates**.
 
-![Ticket template placeholder](/assets/tickets/placeholder.svg)
+![Ticket template](/assets/tickets/template-overview.png)
 
 ## Creating a Template
 
@@ -29,7 +29,7 @@ Use a padded counter such as `ticket-{counter:04}` if you want ticket channels l
 :::
 
 ::: warning
-Discord categories can only contain a limited number of channels. If the main ticket category is full, Invite Tracker tries the configured overflow categories in order. If no configured category is available, opening, claiming, or escalating a ticket may fail until you free space or add another overflow category.
+Discord categories can only contain 50 channels. If the main ticket category is full, Invite Tracker tries the configured overflow categories in order. If no configured category is available, opening, claiming, or escalating a ticket may fail until you free space or add another overflow category.
 :::
 
 ## Messages
@@ -40,7 +40,7 @@ The **Initial Message** is posted in the ticket channel as soon as it opens. You
 
 The **Close DM** is sent to the ticket owner when the ticket closes. If transcripts are enabled, you can also attach an **Open transcript** button to this DM.
 
-![Ticket messages placeholder](/assets/tickets/placeholder.svg)
+![Ticket messages](/assets/tickets/message.png)
 
 ::: warning
 The close DM transcript button requires **Ticket Owner Access** to be enabled in the Transcripts tab.
@@ -69,7 +69,7 @@ The **Transcripts** tab controls whether Invite Tracker saves an HTML transcript
 
 When transcripts are enabled, Invite Tracker saves the ticket messages and form answers when the ticket closes. You can choose an optional **Transcript Channel** where Invite Tracker sends a ticket summary and an **Open transcript** button.
 
-![Ticket transcripts placeholder](/assets/tickets/placeholder.svg)
+![Ticket transcripts](/assets/tickets/transcripts.png)
 
 Transcript access is controlled by the template:
 
@@ -95,7 +95,7 @@ The **Claiming** tab lets support members take responsibility for a ticket.
 
 When claiming is enabled, support members can use the claim button or `/ticket-claim` in the ticket channel. Claiming can rename the channel, move it to a claim category, adjust support permissions, and change roles on the ticket owner.
 
-![Ticket claiming placeholder](/assets/tickets/placeholder.svg)
+![Ticket claiming](/assets/tickets/claiming.png)
 
 Important claiming settings:
 
@@ -114,7 +114,7 @@ Escalation lets support members move an open ticket to another panel's first tem
 
 First, enable escalation on the source template and select the **Target Panels** that tickets are allowed to escalate into. When a ticket is escalated, Invite Tracker can update the category, channel name, permissions, claim state, and messages using the target panel's first active template.
 
-![Ticket escalation placeholder](/assets/tickets/placeholder.svg)
+![Ticket escalation](/assets/tickets/escalation.png)
 
 You can choose whether escalation should:
 
@@ -135,7 +135,7 @@ The **Forms** tab lets you ask members questions before their ticket is created.
 
 When forms are enabled, clicking the ticket panel opens a Discord modal. You can add up to 5 questions, choose short or paragraph answers, set whether each answer is required, and configure minimum and maximum answer lengths.
 
-![Ticket form placeholder](/assets/tickets/placeholder.svg)
+![Ticket form](/assets/tickets/forms.png)
 
 You can show form answers in ticket messages using form variables. This lets support members see the member's issue immediately in the first ticket message.
 
@@ -161,10 +161,10 @@ Automation actions include:
 
 For message-based automations, you can choose whether Invite Tracker checks messages from anyone, only the ticket owner, or only the support team. You can also choose whether the automation checks once or keeps checking until it is stopped.
 
-![Ticket automations placeholder](/assets/tickets/placeholder.svg)
+![Ticket automations](/assets/tickets/automation.png)
 
 ::: warning
-Ticket automations can have up to 10 rules per template. Message-based automations must wait at least 5 minutes, and any automation delay can be at most 7 days.
+Ticket automations can have up to 10 rules per template. Message-based automations must wait at least 5 minutes, and any automation delay can be up to 7 days.
 :::
 
 ::: tip
@@ -184,7 +184,7 @@ You can log:
 - Ticket unclaimed
 - Ticket escalated
 
-![Ticket logs placeholder](/assets/tickets/placeholder.svg)
+![Ticket logs](/assets/tickets/logging.png)
 
 ## Buttons
 

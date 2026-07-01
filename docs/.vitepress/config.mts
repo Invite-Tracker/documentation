@@ -35,7 +35,10 @@ export default defineConfig({
           items: [
             { text: 'Home', link: '/' },
             { text: 'Information', link: '/information' },
-            { text: 'FAQ', link: '/faq' }
+            { text: 'FAQ', link: '/faq' },
+            { text: 'Bot Profile', link: '/dashboard/bot-profile' },
+            { text: 'Custom Bot', link: '/dashboard/custom-bot' },
+            { text: 'My Account', link: '/dashboard/my-account' }
           ]
         },
         {
@@ -54,6 +57,7 @@ export default defineConfig({
               collapsed: false,
               items: [
                 { text: 'Overview', link: '/dashboard/tickets/index' },
+                { text: 'Panel', link: '/dashboard/tickets/panels' },
                 { text: 'Templates', link: '/dashboard/tickets/templates' },
                 { text: 'History', link: '/dashboard/tickets/history' },
               ]
@@ -68,9 +72,6 @@ export default defineConfig({
                 { text: 'Welcome Banner', link: '/dashboard/welcome-banner' }
               ]
             },
-            { text: 'Bot Profile', link: '/dashboard/bot-profile' },
-            { text: 'Custom Bot', link: '/dashboard/custom-bot' },
-            { text: 'My Account', link: '/dashboard/my-account' }
           ]
         },
         {

@@ -2,7 +2,7 @@
 
 The **History** page shows tickets opened in your server. Use it to find open tickets, review closed tickets, and open saved transcripts.
 
-![Ticket history placeholder](/assets/tickets/placeholder.svg)
+![Ticket history](/assets/tickets/history.png)
 
 ## Searching Tickets
 

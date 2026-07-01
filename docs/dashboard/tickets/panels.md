@@ -4,7 +4,7 @@ Ticket panels are the Discord messages members use to open tickets. Create panel
 
 Before creating a panel, create at least one [ticket template](/dashboard/tickets/templates).
 
-![Ticket panel placeholder](/assets/tickets/placeholder.svg)
+![Ticket panel](/assets/tickets/panel.png)
 
 ## Creating a Panel
 
@@ -38,7 +38,7 @@ Template bindings decide which ticket options appear on the panel.
 
 Each binding connects one template to one panel option. The binding label is what members see on the button or select menu option. You can also configure a description, emoji, and button style.
 
-![Ticket panel bindings placeholder](/assets/tickets/placeholder.svg)
+![Ticket panel bindings](/assets/tickets/template-binding.png)
 
 ::: warning
 A panel must have at least one template binding, and each template can only be bound once per panel.

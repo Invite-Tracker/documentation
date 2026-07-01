@@ -2,16 +2,14 @@
 
 The tickets plugin lets you create support panels that members can use to open private ticket channels. Tickets are configured from the dashboard with **Templates**, **Panels**, and **History**.
 
-::: info
-Tickets are currently in early access. If you do not see the Tickets section on your server's dashboard, your server does not have access to the new ticket module yet.
-:::
-
 ## Before You Start
 
 Invite Tracker needs permission to create, edit, and delete ticket channels. If you enable role changes, pinned messages, embedded messages, or transcripts, make sure the bot also has permission to manage those roles, pin messages, embed links, and read message history.
 
 ::: warning
-If Invite Tracker cannot create or delete channels, update channel permissions, or send messages in the configured channels, tickets may fail to open, close, claim, escalate, or save transcripts.
+If Invite Tracker cannot create or delete channels, update channel permissions, or send messages in the configured channels, tickets may fail to open, close, claim, escalate, or save transcripts. 
+
+Please ensure that the bot has the correct [permissions](/faq#what-are-the-required-permissions-for-invite-tracker).
 :::
 
 ## How Tickets Work
@@ -23,7 +21,7 @@ A ticket setup has two main parts:
 
 After members start opening tickets, the **History** page gives you a searchable list of open and closed tickets.
 
-![Tickets overview placeholder](/assets/tickets/placeholder.svg)
+![Tickets overview](/assets/tickets/panel.png)
 
 ## Setup Order
 
