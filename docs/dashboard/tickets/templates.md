@@ -10,6 +10,12 @@ To create your first template, click **Create your first template**. If you alre
 
 Each template has tabs for identity, messages, roles, transcripts, claiming, escalation, forms, automations, logs, and buttons.
 
+::: warning
+Free servers can create up to 3 ticket templates.
+
+Premium servers can create up to 25 ticket templates.
+:::
+
 ## Identity
 
 The **Identity** tab controls the core ticket behavior.
@@ -23,6 +29,14 @@ The **Identity** tab controls the core ticket behavior.
 - **Pin Initial Message** pins the first Invite Tracker message inside the ticket channel.
 - **Tickets Per User** limits how many open tickets each member can have from this template.
 - **Opener Can Close** controls whether the member who opened the ticket can close it.
+
+<img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Custom naming patterns are a Premium feature. Free servers use the default `ticket-{counter:04}` pattern.
+
+::: warning
+Free servers can configure 1 overflow category per template.
+
+Premium servers can configure up to 25 overflow categories per template.
+:::
 
 ::: tip
 Use a padded counter such as `ticket-{counter:04}` if you want ticket channels like `ticket-0001`, `ticket-0002`, and `ticket-0003`.
@@ -38,9 +52,13 @@ The **Messages** tab controls the first message sent inside a new ticket and the
 
 The **Initial Message** is posted in the ticket channel as soon as it opens. You can use plain text or a rich embed, and you can include ticket variables such as the ticket owner, channel, panel, template, and form answers.
 
-The **Close DM** is sent to the ticket owner when the ticket closes. If transcripts are enabled, you can also attach an **Open transcript** button to this DM.
+<img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> The **Close DM** is a Premium feature. It is sent to the ticket owner when the ticket closes. If transcripts are enabled, you can also attach an **Open transcript** button to this DM.
 
 ![Ticket messages](/assets/tickets/message.png)
+
+::: info
+Ticket embeds on free servers show a "Powered by Invite Tracker" footer and cannot use embed images, thumbnails, or author fields. Premium servers can fully customize ticket embeds.
+:::
 
 ::: warning
 The close DM transcript button requires **Ticket Owner Access** to be enabled in the Transcripts tab.
@@ -50,7 +68,9 @@ The close DM transcript button requires **Ticket Owner Access** to be enabled in
 The **Two Step Close** setting only applies to the close button. The `/ticket-close` command closes the ticket immediately.
 :::
 
-## Role Changes
+## <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Role Changes
+
+Ticket role changes are a Premium feature.
 
 The **Roles** tab lets you automatically add or remove roles from the ticket owner.
 
@@ -86,6 +106,12 @@ Transcripts include up to the most recent 5000 ticket messages. Very large trans
 :::
 
 ::: warning
+Transcripts on free servers are stored for 30 days after they are saved and show a small "Powered by Invite Tracker" footer.
+
+Premium servers keep transcripts with no time limit and without the footer branding.
+:::
+
+::: warning
 At least one transcript access option must stay enabled. If you want to send transcript buttons in close DMs, keep **Ticket Owner Access** enabled.
 :::
 
@@ -108,7 +134,11 @@ Important claiming settings:
 - **Claim Category** and **Claim Overflow Categories** move claimed tickets into another category.
 - **Add/Remove On Claim** and **Add/Remove On Unclaim** change roles on the ticket owner.
 
-## Escalation
+<img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Advanced claiming is a Premium feature. This includes **Support Permission Mode**, **Claim Name**, **Claim Category**, **Claim Overflow Categories**, and the claim/unclaim role changes. Free servers can still claim and unclaim tickets and use the basic claiming settings.
+
+## <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Escalation
+
+Ticket escalation is a Premium feature.
 
 Escalation lets support members move an open ticket to another panel's first template by using `/ticket-escalate`.
 
@@ -133,9 +163,15 @@ Use escalation when your first support team needs to hand a ticket to another te
 
 The **Forms** tab lets you ask members questions before their ticket is created.
 
-When forms are enabled, clicking the ticket panel opens a Discord modal. You can add up to 5 questions, choose short or paragraph answers, set whether each answer is required, and configure minimum and maximum answer lengths.
+When forms are enabled, clicking the ticket panel opens a Discord modal. You can add questions, choose short or paragraph answers, set whether each answer is required, and configure minimum and maximum answer lengths.
 
 ![Ticket form](/assets/tickets/forms.png)
+
+::: warning
+Free servers can add up to 3 form questions.
+
+Premium servers can add up to 5 form questions.
+:::
 
 You can show form answers in ticket messages using form variables. This lets support members see the member's issue immediately in the first ticket message.
 
@@ -161,10 +197,16 @@ Automation actions include:
 
 For message-based automations, you can choose whether Invite Tracker checks messages from anyone, only the ticket owner, or only the support team. You can also choose whether the automation checks once or keeps checking until it is stopped.
 
+<img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Advanced automations, including auto-closing inactive tickets, are a Premium feature.
+
 ![Ticket automations](/assets/tickets/automation.png)
 
 ::: warning
-Ticket automations can have up to 10 rules per template. Message-based automations must wait at least 5 minutes, and any automation delay can be up to 7 days.
+Free servers can use 1 automation rule: **Ticket Owner Left Server** with the **Close Ticket** action.
+
+Premium servers can use up to 10 automation rules per template with all triggers and actions.
+
+Message-based automations must wait at least 5 minutes, and any automation delay can be up to 7 days.
 :::
 
 ::: tip

@@ -65,7 +65,7 @@ If you want to give Invite Tracker all permissions without any more hassle, you 
 | `Administrator` | Grants all permissions |
 | `Manage Server` | Needed to view the server's active invites so it can track them |
 | `Manage Roles` | Needed to manage tickets and grant roles such as reward roles, auto roles, winner roles, and verification roles |
-| `Manage Channels` | Needed to manage tickets and grant roles such as reward roles, auto roles, winner roles, and verification roles |
+| `Manage Channels` | Needed to create and manage ticket channels and to see invites created in a channel for tracking invites |
 | `Kick Members` | Needed to kick members for verification action |
 | `Ban Members` | Needed to ban members for verification action or for mass bans |
 | `View Channel` | Needed to view messages so it can either respond to or track them |

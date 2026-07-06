@@ -19,6 +19,8 @@ Ticket commands only work in ticket channels created by the new tickets plugin.
 | `/ticket-escalate <target> [reason]` | Escalates the current ticket to an allowed target panel. The target can be the target panel name or ID. |
 | `/ticket-automation <start\|stop>` | Starts or stops automations for the current ticket channel. |
 
+<img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Ticket escalation is a Premium feature, so `/ticket-escalate` can only be used on Premium servers.
+
 ::: info
 The **Two Step Close** template setting only applies to the close button. `/ticket-close` closes the ticket immediately.
 :::

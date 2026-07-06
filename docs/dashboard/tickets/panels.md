@@ -10,6 +10,12 @@ Before creating a panel, create at least one [ticket template](/dashboard/ticket
 
 Click **Create Panel** to create a new panel. A panel must be saved before it can be sent to Discord.
 
+::: warning
+Free servers can create up to 3 ticket panels.
+
+Premium servers can create up to 25 ticket panels.
+:::
+
 ## Panel Management
 
 The **Panel Management** section controls where the panel message is sent and how members choose a ticket type.
@@ -42,6 +48,8 @@ Each binding connects one template to one panel option. The binding label is wha
 
 ::: warning
 A panel must have at least one template binding, and each template can only be bound once per panel.
+
+Free servers can bind up to 3 ticket options per panel. Premium servers can bind up to 25 ticket options per panel.
 :::
 
 ## Panel Message
@@ -50,7 +58,13 @@ The **Panel Message** section controls the message Invite Tracker sends for the 
 
 Supported panel variables include `{panel.name}`, `{schedule.timezone}`, `{bot.avatar}`, and `{specialchars}`.
 
-## Schedule
+::: info
+Panel embeds on free servers show a "Powered by Invite Tracker" footer and cannot use embed images, thumbnails, or author fields. Premium servers can fully customize the panel embed.
+:::
+
+## <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Schedule
+
+Panel schedules are a Premium feature.
 
 Panel schedules let you control when regular members can open tickets from a panel.
 

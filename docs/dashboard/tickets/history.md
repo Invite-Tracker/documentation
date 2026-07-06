@@ -41,5 +41,11 @@ If a ticket has a saved transcript, the History page shows a transcript link. Op
 See [Ticket Templates](/dashboard/tickets/templates#transcripts) for transcript setup.
 
 ::: warning
+Transcripts on free servers are stored for 30 days after they are saved.
+
+Premium servers keep transcripts with no time limit.
+:::
+
+::: warning
 Deleting a ticket channel manually marks the ticket as closed, but it does not run the normal close flow. Use the close button or `/ticket-close` when you want close roles, close DMs, close logs, and transcripts to run.
 :::

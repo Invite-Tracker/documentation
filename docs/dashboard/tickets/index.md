@@ -23,6 +23,32 @@ After members start opening tickets, the **History** page gives you a searchable
 
 ![Tickets overview](/assets/tickets/panel.png)
 
+## <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Free and Premium Limits
+
+Tickets are available to every server for free, including unlimited tickets, transcripts, basic claiming, forms, and logs. [Invite Tracker Premium](https://invite-tracker.com/premium) raises the ticket limits and unlocks the advanced ticket features.
+
+| Limit | Free | Premium |
+| --- | --- | --- |
+| Ticket panels | 3 | 25 |
+| Ticket templates | 3 | 25 |
+| Ticket options per panel | 3 | 25 |
+| Form questions | 3 | 5 |
+| Automation rules | 1 | 10 |
+| Overflow categories per template | 1 | 25 |
+| Transcript storage | 30 days | Unlimited |
+
+The following features are Premium only:
+
+- Advanced automations, including auto-closing inactive tickets. Free servers can use one **Ticket Owner Left Server** → **Close Ticket** rule.
+- Ticket escalation between panels.
+- Panel schedules (opening hours).
+- Close DM messages with transcript delivery.
+- Advanced claiming: claim renaming, claim categories, support permission modes, and claim/unclaim role changes.
+- Role changes on ticket open and close.
+- Custom ticket channel naming patterns.
+- Embed images, thumbnails, and author fields in ticket messages.
+- Removing the "Powered by Invite Tracker" branding from panels, ticket messages, and transcripts.
+
 ## Setup Order
 
 To set up tickets, use the dashboard pages in this order:
