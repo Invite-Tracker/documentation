@@ -35,7 +35,10 @@ export default defineConfig({
           items: [
             { text: 'Home', link: '/' },
             { text: 'Information', link: '/information' },
-            { text: 'FAQ', link: '/faq' }
+            { text: 'FAQ', link: '/faq' },
+            { text: 'Bot Profile', link: '/dashboard/bot-profile' },
+            { text: 'Custom Bot', link: '/dashboard/custom-bot' },
+            { text: 'My Account', link: '/dashboard/my-account' }
           ]
         },
         {
@@ -50,6 +53,16 @@ export default defineConfig({
             { text: 'Pin Statistics', link: '/dashboard/pin-statistics' },
             { text: 'Giveaways', link: '/dashboard/giveaways' },
             {
+              text: 'Tickets',
+              collapsed: false,
+              items: [
+                { text: 'Overview', link: '/dashboard/tickets/index' },
+                { text: 'Panel', link: '/dashboard/tickets/panels' },
+                { text: 'Templates', link: '/dashboard/tickets/templates' },
+                { text: 'History', link: '/dashboard/tickets/history' },
+              ]
+            },
+            {
               text: 'Join/Leave Messages',
               collapsed: false,
               items: [
@@ -59,9 +72,6 @@ export default defineConfig({
                 { text: 'Welcome Banner', link: '/dashboard/welcome-banner' }
               ]
             },
-            { text: 'Bot Profile', link: '/dashboard/bot-profile' },
-            { text: 'Custom Bot', link: '/dashboard/custom-bot' },
-            { text: 'My Account', link: '/dashboard/my-account' }
           ]
         },
         {
@@ -72,7 +82,8 @@ export default defineConfig({
             { text: 'Management', link: '/commands/management' },
             { text: 'Giveaway', link: '/commands/giveaway' },
             { text: 'Verification', link: '/commands/verification' },
-            { text: 'Premium', link: '/commands/premium' }
+            { text: 'Premium', link: '/commands/premium' },
+            { text: 'Tickets', link: '/commands/tickets' }
           ]
         },
         {

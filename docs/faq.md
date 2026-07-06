@@ -18,7 +18,9 @@ Lastly, if Invite Tracker is not responding to a mention, please make sure Invit
 
 ## How do I set up invite roles?
 
-This feature has sadly been disabled due to it being against Discord's Developer Terms of Service. Having any features that include rewarding invites just enables server advertisement in servers and direct messages. This is something Discord views as unsolicited advertisement, which is exactly what breaks the Discord Developer Policy.
+This feature has been disabled due to it being against Discord's Developer Terms of Service. Having any features that include rewarding invites just enables server advertisement in servers and direct messages. This is something Discord views as unsolicited advertisement, which is exactly what breaks the Discord Developer Policy. 
+
+You can view this policy [here](https://discord.com/safety/platform-manipulation-policy-explainer)
 
 ::: info
 Invite requirements for giveaways is also disabled due to being against Discord's Developer Terms of Service for the same reason as invite roles.
@@ -62,16 +64,16 @@ If you want to give Invite Tracker all permissions without any more hassle, you 
 | --- | --- |
 | `Administrator` | Grants all permissions |
 | `Manage Server` | Needed to view the server's active invites so it can track them |
-| `Manage Roles` | Needed to grant roles such as reward roles, auto roles, winner roles, and verification roles |
-| `Manage Channels` | Needed for the bot to be able see invites created in a channel for tracking invites |
+| `Manage Roles` | Needed to manage tickets and grant roles such as reward roles, auto roles, winner roles, and verification roles |
+| `Manage Channels` | Needed to create and manage ticket channels and to see invites created in a channel for tracking invites |
 | `Kick Members` | Needed to kick members for verification action |
 | `Ban Members` | Needed to ban members for verification action or for mass bans |
 | `View Channel` | Needed to view messages so it can either respond to or track them |
 | `Send Messages` | Needed to respond to commands, edit messages, and send join/leave/test messages |
-| `Pin Messages` | Needed to pin leaderboards |
+| `Pin Messages` | Needed to pin leaderboards and pin ticket messages |
 | `Embed Links` | Needed to send embeds such as leaderboards, embedded join/leave messages, and giveaways |
 | `Attach Files` | Needed to send statistical graphs and exports of the leaderboard |
-| `Read Message History` | Needed to view older messages so it may edit them such as pinned leaderboards and giveaways |
+| `Read Message History` | Needed to view older messages to edit them (such as pinned leaderboards and giveaways) and to save ticket transcripts |
 | `Add Reactions` | Needed to react to join/leave messages |
 | `Use External Emojis` | Needed to use server emojis in your join/leave messages |
 
