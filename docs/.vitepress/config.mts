@@ -50,6 +50,7 @@ export default defineConfig({
             { text: 'Invite Tracking', link: '/dashboard/invite-tracking' },
             { text: 'Analytics', link: '/dashboard/analytics' },
             { text: 'Server Reports', link: '/dashboard/server-reports' },
+            { text: 'Leaderboard', link: '/dashboard/leaderboard' },
             { text: 'Message Counting', link: '/dashboard/message-counting' },
             { text: 'Pin Leaderboard', link: '/dashboard/pin-leaderboard' },
             { text: 'Pin Statistics', link: '/dashboard/pin-statistics' },
