@@ -48,6 +48,7 @@ The following features are Premium only:
 - Custom ticket channel naming patterns.
 - Embed images, thumbnails, and author fields in ticket messages.
 - Removing the "Powered by Invite Tracker" branding from panels, ticket messages, and transcripts.
+- [Ticket analytics](/dashboard/tickets/analytics): response times, staff performance, and satisfaction (CSAT) surveys.
 
 ## Setup Order
 
@@ -57,6 +58,7 @@ To set up tickets, use the dashboard pages in this order:
 2. Create a [ticket panel](/dashboard/tickets/panels) and bind templates to it.
 3. Save the panel, then click **Send Panel** to post it in Discord.
 4. Use [Ticket History](/dashboard/tickets/history) to review open and closed tickets.
+5. Check [Ticket Analytics](/dashboard/tickets/analytics) to see how your support team performs.
 
 ## What Members See
 

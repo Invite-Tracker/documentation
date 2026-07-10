@@ -63,6 +63,7 @@ export default defineConfig({
                 { text: 'Panel', link: '/dashboard/tickets/panels' },
                 { text: 'Templates', link: '/dashboard/tickets/templates' },
                 { text: 'History', link: '/dashboard/tickets/history' },
+                { text: 'Analytics', link: '/dashboard/tickets/analytics' },
               ]
             },
             {
