@@ -41,7 +41,7 @@ With **Respond automatically** enabled, the actions you pick are applied within 
 
 - **Pause invites** — pauses server invites for a configurable duration (up to 24 hours).
 - **Force verification** — new joiners must pass verification (captcha at minimum) while the response is active. Your saved verification settings are untouched and restore themselves the moment the response ends.
-- **Kick young accounts** — accounts younger than your age threshold are kicked during the response, with a polite DM inviting them to come back later.
+- **Kick young accounts** — accounts younger than your age threshold are kicked during the response. They can rejoin normally once it ends.
 - **Pause invite crediting** — joins during a raid don't count towards invite leaderboards or rewards, so raiders and reward farmers can't pollute them.
 
 ::: tip
