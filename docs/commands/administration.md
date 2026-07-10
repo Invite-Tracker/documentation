@@ -19,6 +19,8 @@ The explanation for all the administration commands available for Invite Tracker
 | Command | Description |
 | --- | --- |
 | :star: `/massban <@user\|invite_code>` | Allows you to ban everyone invited by a specific user or you can choose to mass ban everyone invited by a specific invite code. |
+| :star: `/lockdown start [duration]` | Manually activates the [raid response](/dashboard/raid-protection): pauses server invites, pauses invite crediting and applies your configured response actions for the chosen duration. |
+| :star: `/lockdown end` | Ends the active lockdown or raid response early and restores paused invites. |
 | :star: `/exportleaderboard <leaderboard_type>` | Allows you to export the invites or messages leaderboard type. This gives you raw data that can be downloaded from a .csv file format. |
 | :star: `/exportinvitedlist <@user\|invite_code\|invite_label\|filter_role>` | Allows you to export a list of the specified type to a downloadable .csv file format. What are Invite Labels? Click [here](/dashboard/invite-tracking#invite-label) for more info. |
 
