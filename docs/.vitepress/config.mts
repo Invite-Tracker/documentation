@@ -47,6 +47,7 @@ export default defineConfig({
             { text: 'Overview', link: '/dashboard/' },
             { text: 'Administration', link: '/dashboard/administration' },
             { text: 'Verification', link: '/dashboard/verification' },
+            { text: 'Raid Protection', link: '/dashboard/raid-protection' },
             { text: 'Invite Tracking', link: '/dashboard/invite-tracking' },
             { text: 'Analytics', link: '/dashboard/analytics' },
             { text: 'Server Reports', link: '/dashboard/server-reports' },
