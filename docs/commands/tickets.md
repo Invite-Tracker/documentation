@@ -16,7 +16,7 @@ Ticket commands only work in ticket channels created by the new tickets plugin.
 | `/ticket-remove-role <role>` | Removes a role's explicit ticket permissions from the current ticket channel. |
 | `/ticket-claim` | Claims the current ticket channel. |
 | `/ticket-unclaim` | Unclaims the current ticket channel. |
-| `/ticket-escalate <target> [reason]` | Escalates the current ticket to an allowed target panel. The target can be the target panel name or ID. |
+| `/ticket-escalate <target> [reason]` | Escalates the current ticket to an allowed target template. The target can be the template name or ID. |
 | `/ticket-automation <start\|stop>` | Starts or stops automations for the current ticket channel. |
 
 <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Ticket escalation is a Premium feature, so `/ticket-escalate` can only be used on Premium servers.

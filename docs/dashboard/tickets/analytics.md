@@ -53,7 +53,7 @@ The satisfaction survey is a premium feature. Members who have server DMs disabl
 
 - **First reply**: the time between the ticket being opened and the first message from a staff member. Messages from the opener never count, even if the opener has a support role.
 - **Resolution**: the time between the ticket being opened and it being closed.
-- **Escalations**: how many tickets were escalated to another panel during the period.
+- **Escalations**: how many tickets were escalated to another template during the period.
 
 Both response metrics show the **median** as the headline number — a single ticket that stayed open over a weekend won't distort it — with the average next to it.
 

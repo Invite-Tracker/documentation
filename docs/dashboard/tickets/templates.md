@@ -27,7 +27,9 @@ The **Identity** tab controls the core ticket behavior.
 - **Support Roles** are the roles that can see, write in, and manage tickets created from this template.
 - **Two Step Close** asks users to confirm before a close button closes the ticket.
 - **Pin Initial Message** pins the first Invite Tracker message inside the ticket channel.
-- **Tickets Per User** limits how many open tickets each member can have from this template.
+- **Tickets Per User** limits how many open tickets each member can have from this template. Set it to `0` for no limit.
+- **Limit Bypass Roles** allows selected roles to ignore the ticket limit for this template.
+- **Ticket Count** is the current counter used by the `{counter}` naming tokens. New tickets increment it before naming.
 - **Opener Can Close** controls whether the member who opened the ticket can close it.
 
 <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Custom naming patterns are a Premium feature. Free servers use the default `ticket-{counter:04}` pattern.
@@ -140,9 +142,9 @@ Important claiming settings:
 
 Ticket escalation is a Premium feature.
 
-Escalation lets support members move an open ticket to another panel's first template by using `/ticket-escalate`.
+Escalation lets support members move an open ticket to another template by using `/ticket-escalate`.
 
-First, enable escalation on the source template and select the **Target Panels** that tickets are allowed to escalate into. When a ticket is escalated, Invite Tracker can update the category, channel name, permissions, claim state, and messages using the target panel's first active template.
+First, enable escalation on the source template and select the **Target Templates** that tickets are allowed to escalate into. When a ticket is escalated, Invite Tracker can update the category, channel name, permissions, claim state, and messages using the target template.
 
 ![Ticket escalation](/assets/tickets/escalation.png)
 
@@ -157,6 +159,8 @@ You can choose whether escalation should:
 
 ::: tip
 Use escalation when your first support team needs to hand a ticket to another team, such as billing, appeals, partnerships, or senior moderators.
+
+Target templates do not need to be bound to a panel. You can create internal-only templates, such as a Tier 2 team, that members cannot open tickets from directly.
 :::
 
 ## Forms

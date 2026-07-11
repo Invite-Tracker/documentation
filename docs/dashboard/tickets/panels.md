@@ -23,20 +23,13 @@ The **Panel Management** section controls where the panel message is sent and ho
 - **Panel Name** is the internal dashboard name.
 - **Panel Channel** is where **Send Panel** posts the panel message.
 - **Component Type** can be **Buttons** or **Select**.
-- **Ticket Count** is the current counter used by ticket naming.
 - **Select Placeholder** is the placeholder text shown when using a select menu.
 
 Click **Save** before sending a panel. After the panel is saved, click **Send Panel** to post it in Discord. If you change the panel later, click **Edit Sent Panel** to update the existing Discord message.
 
-## Panel Limits
-
-Panel limits control how many open tickets can exist from the panel.
-
-- **Open Limit Per User** limits how many open tickets one member can have from this panel.
-- **Open Limit All Users** limits how many open tickets the whole server can have from this panel.
-- **Limit Bypass Roles** allows selected roles to ignore panel and template ticket limits.
-
-Set a panel limit to `0` to disable that limit.
+::: info
+Ticket limits and the ticket naming counter are configured per template, not per panel. See the [ticket template Identity settings](/dashboard/tickets/templates#identity).
+:::
 
 ## Template Bindings
 

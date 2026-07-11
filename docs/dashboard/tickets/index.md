@@ -40,7 +40,7 @@ Tickets are available to every server for free, including unlimited tickets, tra
 The following features are Premium only:
 
 - Advanced automations, including auto-closing inactive tickets. Free servers can use one **Ticket Owner Left Server** → **Close Ticket** rule.
-- Ticket escalation between panels.
+- Ticket escalation between templates.
 - Panel schedules (opening hours).
 - Close DM messages with transcript delivery.
 - Advanced claiming: claim renaming, claim categories, support permission modes, and claim/unclaim role changes.
