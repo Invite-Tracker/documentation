@@ -13,7 +13,7 @@ Bot profile customization lets you personalize how Invite Tracker presents itsel
 ## Accessing Bot Profile Settings
 
 1. Navigate to your server's dashboard
-2. Select **Bot Profile** from the plugins menu
+2. Select **Bot Profile** in the sidebar, under the **Server** section
 3. Customize the available options
 
 ![Button](/assets/bot-profile/bot-profile-button.png)
@@ -35,10 +35,10 @@ The avatar should be a square image for best results. Recommended size is 512x51
 
 **To set a custom avatar:**
 
-1. Click the avatar upload area
+1. Click **Upload image** next to the avatar preview
 2. Select an image file from your device
 3. Preview the result
-4. Click **Save Changes**
+4. Click **Save changes** in the bar that appears at the bottom
 
 ![Avatar](/assets/bot-profile/server-avatar.png)
 
@@ -52,10 +52,10 @@ Banners are displayed at the top of the bot's profile popup. Recommended aspect 
 
 **To set a custom banner:**
 
-1. Click the banner upload area
+1. Click **Upload image** next to the banner preview
 2. Select an image file from your device
 3. Preview the result
-4. Click **Save Changes**
+4. Click **Save changes** in the bar that appears at the bottom
 
 <img src="/assets/bot-profile/server-banner.png" alt="Banner" style="max-width:100%; height:auto;">
 
@@ -75,7 +75,7 @@ Choose a nickname that fits your server's theme while still being recognizable a
 
 ### Bio / About Me
 
-Write a custom description for the bot that appears in its profile. The bio can be up to **2000 characters** and supports Discord markdown formatting.
+Write a custom description for the bot that appears in its profile. The bio can be up to **180 characters** and supports plain text only.
 
 **Ideas for your bio:**
 

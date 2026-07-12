@@ -42,9 +42,9 @@ The maximum amount of winners you can have without premium is 20 and with premiu
 
 ### End Date
 
-The first box under **End Date** is where you configure what day you want the giveaway to end. The format, as shown in the box, is `yyyy/mm/dd`. You can also click the little calendar icon on the right side of the box to display an interactive calendar which you can use to choose the day you want the giveaway to end.
+The first box under **End Date** is where you configure what day you want the giveaway to end. The date format is shown in the box and follows your browser's language (for example `mm/dd/yyyy`). You can also click the little calendar icon on the right side of the box to display an interactive calendar which you can use to choose the day you want the giveaway to end.
 
-The second box is where you configure at what time you want the giveaway to end. It uses a 24-hour clock format. You can also click the little clock icon on the right side of the box to display an interactive time selector which you can use to choose the time you want the giveaway to end.
+The second box is where you configure at what time you want the giveaway to end. The clock format also follows your browser's language. You can also click the little clock icon on the right side of the box to display an interactive time selector which you can use to choose the time you want the giveaway to end.
 
 ![End Date](/assets/giveaways/end-date.png)
 
@@ -94,11 +94,11 @@ The maximum amount of bonus entry roles and roles granted to winners you can hav
 
 ### An example of a Giveaway
 
-Below is an example of what the giveaway creation process will look like. In this giveaway, both "Verified" and "Role 1" roles are required to enter. The number of messages required to enter the giveaway is 50. The "Server Booster" role is set to have 5 bonus entries if the user has that role and the "Reward A" role will be awarded to the winner of the giveaway (Winner roles are a premium feature).
+Below is an example of what the giveaway creation process will look like. In this giveaway, both "Verified" and "Member" roles are required to enter. The number of messages required to enter the giveaway is 50. The "Server Booster" role is set to have 5 bonus entries if the user has that role and the "Giveaway Winner" role will be awarded to the winner of the giveaway (Winner roles are a premium feature).
 
 ![Sample Giveaway](/assets/giveaways/sample-giveaway.png)
 
-Now we just hit the blue button at the bottom of the page named **Create giveaway** and the giveaway should be made in the configured channel. If not, check [Invite Tracker's permissions](/faq#what-are-the-required-permissions-for-invite-tracker) first.
+Now we just hit the blue button at the bottom of the page named **Create** and the giveaway should be made in the configured channel. If not, check [Invite Tracker's permissions](/faq#what-are-the-required-permissions-for-invite-tracker) first.
 
 Now that we have an active giveaway, we can go back to the dashboard and see that it has been added to the list of the server's active giveaways.
 
@@ -140,7 +140,7 @@ For our giveaway, we will increase the required number of messages up to 100 fro
 
 ![Edit Messages Required](/assets/giveaways/edit-messages-required.png)
 
-Now you can just go ahead and click **Edit giveaway**. Now if you check your server, you will be able to see that the giveaway has changed.
+Now you can just go ahead and click **Edit**. Now if you check your server, you will be able to see that the giveaway has changed.
 
 ## Rerolling a Giveaway
 

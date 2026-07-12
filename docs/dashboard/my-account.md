@@ -6,12 +6,12 @@ The new way to manage your premium from one place on the new "My Account" page!
 
 ![My Account Menu](/assets/my-account/menu.png)
 
-You will be presented with your avatar and username. The button to *Manage Subscriptions* allows you to cancel your subscription, manage your payment information, and download your invoices.
+You will be presented with your avatar and username. The *Open Customer Portal* button allows you to cancel your subscription, manage your payment information, and download your invoices.
 
 ![Manage Subscriptions](/assets/my-account/manage-subscriptions.png)
 
 ::: warning
-The *Manage Subscriptions* button will only work if you have a Dashboard subscription.
+The *Open Customer Portal* button will only work if you have a Dashboard subscription.
 
 To cancel your Discord subscription, click [here](https://support.discord.com/hc/en-us/articles/26729692307351-How-to-Cancel-your-Premium-App-Subscription).
 :::

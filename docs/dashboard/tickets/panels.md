@@ -35,7 +35,7 @@ Ticket limits and the ticket naming counter are configured per template, not per
 
 Template bindings decide which ticket options appear on the panel.
 
-Each binding connects one template to one panel option. The binding label is what members see on the button or select menu option. You can also configure a description, emoji, and button style.
+Each binding connects one template to one panel option. The **Display** text is what members see on the button or select menu option, and you can also pick an emoji. With the **Buttons** component type, each binding additionally has a **Button Color**; with the **Select** component type, it instead has a short **Description** shown under the option.
 
 ![Ticket panel bindings](/assets/tickets/template-binding.png)
 
@@ -55,13 +55,13 @@ Supported panel variables include `{panel.name}`, `{schedule.timezone}`, `{bot.a
 Panel embeds on free servers show a "Powered by Invite Tracker" footer and cannot use embed images, thumbnails, or author fields. Premium servers can fully customize the panel embed.
 :::
 
-## <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Schedule
+## <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Opening Hours
 
-Panel schedules are a Premium feature.
+Panel schedules are a Premium feature, configured in the **Opening Hours** section.
 
 Panel schedules let you control when regular members can open tickets from a panel.
 
-When scheduling is enabled, choose a timezone and add opening-hour entries. Each entry has a day, start time, and end time. If the start time is later than the end time, the schedule continues past midnight into the next day.
+When **Enable Schedule** is turned on, choose a timezone and add **Weekly Windows** entries. Each entry has a day, start time, and end time. If the start time is later than the end time, the schedule continues past midnight into the next day.
 
 Use **Schedule Bypass Roles** for staff or trusted roles that should still be able to open tickets outside the schedule.
 

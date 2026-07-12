@@ -8,7 +8,7 @@ Ticket templates define how new tickets are created and managed. Create template
 
 To create your first template, click **Create your first template**. If you already have a template, click **New Template**.
 
-Each template has tabs for identity, messages, roles, transcripts, claiming, escalation, forms, automations, logs, and buttons.
+Each template has tabs for identity, messages, roles, transcripts, claiming, escalation, forms, automations, logging, and buttons.
 
 ::: warning
 Free servers can create up to 3 ticket templates.
@@ -56,6 +56,8 @@ The **Initial Message** is posted in the ticket channel as soon as it opens. You
 
 <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> The **Close DM** is a Premium feature. It is sent to the ticket owner when the ticket closes. If transcripts are enabled, you can also attach an **Open transcript** button to this DM.
 
+<img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> The **Satisfaction survey** is a Premium feature, also found on the Messages tab. When enabled, Invite Tracker DMs the ticket owner a 1–5 rating prompt after their ticket closes. Ratings power the CSAT score and staff insights on the [ticket analytics](./analytics) page.
+
 ![Ticket messages](/assets/tickets/message.png)
 
 ::: info
@@ -63,7 +65,7 @@ Ticket embeds on free servers show a "Powered by Invite Tracker" footer and cann
 :::
 
 ::: warning
-The close DM transcript button requires **Ticket Owner Access** to be enabled in the Transcripts tab.
+The close DM transcript button requires **Opener Access** to be enabled in the Transcripts tab.
 :::
 
 ::: info
@@ -96,7 +98,7 @@ When transcripts are enabled, Invite Tracker saves the ticket messages and form 
 Transcript access is controlled by the template:
 
 - **Support Access** allows members with the template's support roles to open the transcript.
-- **Ticket Owner Access** allows the member who opened the ticket to open the transcript.
+- **Opener Access** allows the member who opened the ticket to open the transcript.
 - Server administrators can access ticket transcripts.
 
 ::: info
@@ -114,7 +116,7 @@ Premium servers keep transcripts with no time limit and without the footer brand
 :::
 
 ::: warning
-At least one transcript access option must stay enabled. If you want to send transcript buttons in close DMs, keep **Ticket Owner Access** enabled.
+At least one transcript access option must stay enabled. If you want to send transcript buttons in close DMs, keep **Opener Access** enabled.
 :::
 
 ## Claiming
@@ -217,9 +219,9 @@ Message-based automations must wait at least 5 minutes, and any automation delay
 Support members can use `/ticket-automation stop` in an open ticket to pause automations for that ticket, and `/ticket-automation start` to start them again.
 :::
 
-## Logs
+## Logging
 
-The **Logs** tab lets you send ticket lifecycle logs to a text channel.
+The **Logging** tab lets you send ticket lifecycle logs to a text channel.
 
 You can log:
 

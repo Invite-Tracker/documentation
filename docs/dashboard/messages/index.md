@@ -54,7 +54,7 @@ To use a custom emoji, please send the following message in any Discord server: 
 
 ### Configuring a Sub-Message Type
 
-After you have chosen a channel, continue down to the **Messages** section of the page. You should see three boxes: one blue button, one small black box, and one large black text box. The first one is set to **Normal** by default, but you may change this if you are looking to edit another message type.
+After you have chosen a channel, continue down to the **Message content** section of the page. You should see a message type dropdown, a blue **Test message** button, an **Embed** switch, and a large text box. The dropdown is set to **Normal** by default, but you may change this if you are looking to edit another message type.
 
 There is automatically a join/leave message set by default that can be used as shown below.
 
@@ -68,7 +68,7 @@ A list explaining all the different sub-message types and their use can be found
 
 ### Creating the Message
 
-When you have chosen the message type you want to configure, then you may pay attention to the large, black text box. This is where you write the message you want Invite Tracker to display when someone joins the server. The message may be anything you like.
+When you have chosen the message type you want to configure, then you may pay attention to the large text box. This is where you write the message you want Invite Tracker to display when someone joins the server. The message may be anything you like.
 
 ::: info
 If you'd like to customize your own message be sure to refer to the variables that can be found [here](./types#main-message-types).
@@ -100,7 +100,7 @@ To enable and start configuring an embed, please click the switch right above th
 
 ![Embed Toggle](/assets/messages/embed-toggle.png)
 
-After it has been enabled, you are prompted with a lot of text boxes. It might look like a lot, maybe even too much, but do not worry as everything will be explained.
+After it has been enabled, the embed editor appears. It is laid out just like a real Discord embed — you type directly into the parts of the embed — and a live **preview** on the right shows exactly how the message will look in Discord, with variables filled in.
 
 ![Embed Form](/assets/messages/embed-form.png)
 
@@ -108,40 +108,40 @@ An overview of where everything is placed in the embed can be found below.
 
 ![Embed Overview](/assets/messages/embed-overview.png)
 
-Now that you have a general idea of how the embed looks and what goes where we can get to the explanation of every textbox.
+Now that you have a general idea of how the embed looks and what goes where we can get to the explanation of every part of the editor.
 
 #### Author
 
-- **Author Icon URL** is where you can put either a picture link or an avatar variable. It will display the image as a small profile picture in the top left corner of the embed.
-- **Author Name** is just a regular textbox where you can add whatever you want. Take to mind that bold, italic, strikethrough or code fields do not work here.
-- **Author Name URL** is where you can put either a picture link or an avatar variable. It will create a hyperlink on the author name content.
+- **Author name** is just a regular textbox where you can add whatever you want. Take to mind that bold, italic, strikethrough or code fields do not work here.
+- The small **icon placeholder** to the left of the author name is where you set the author icon. Click it and put either a picture link or an avatar variable. It will display the image as a small profile picture in the top left corner of the embed.
+- The **link icon** next to the author name lets you add a URL that will create a hyperlink on the author name content.
 
 #### Title
 
 - **Title** is just a regular textbox where you can add whatever you want.
-- **Title URL** is where you can put either a picture link or an avatar variable. It will create a hyperlink on the title content.
+- The **link icon** next to the title lets you add a URL that will create a hyperlink on the title content.
 
 #### Content
 
 - **Description** is just a regular textbox where you can add whatever you want.
-- **Add Field** adds more title and description textboxes.
+- **+ Field** adds more title and description textboxes.
 
 #### Pictures
 
-- **Image URL** is where you can put either a picture link or an avatar variable. It will display the image as a large picture at the bottom of the embed.
-- **Thumbnail URL** is where you can put either a picture link or an avatar variable. It will display the image as a medium-sized picture at the top right of the embed.
+- The **Image** placeholder at the bottom of the editor is where you can put either a picture link or an avatar variable. It will display the image as a large picture at the bottom of the embed.
+- The dashed **thumbnail placeholder** at the top right is where you can put either a picture link or an avatar variable. It will display the image as a medium-sized picture at the top right of the embed.
 
 #### Footer
 
-- **Footer Text** is just a regular textbox where you can add whatever you want. Take to mind that bold, italic, strikethrough or code fields do not work here.
-- **Footer Icon URL** is where you can put either a picture link or an avatar variable. It will display the image as a small profile picture in the top left corner of the embed.
+- **Footer** is just a regular textbox where you can add whatever you want. Take to mind that bold, italic, strikethrough or code fields do not work here.
+- The small **icon placeholder** to the left of the footer text sets the footer icon, using either a picture link or an avatar variable.
+- **Timestamp**, next to the footer text, will show at what time the message was sent.
 
 #### Extra
 
-- **JSON Editor** allows you to copy/paste/edit the JSON of the embed.
-- **Show current date and time** will show at what time the message was sent.
-- **Random Color** will be a random embed color when the message is displayed.
-- **Color Picker** will change the color of the embed line. Click the color bar to adjust.
+- The **JSON** button allows you to copy/paste/edit the JSON of the embed.
+- The **color rail** on the left edge of the editor changes the color of the embed line. Click it to open the color picker, where you can also enable **Random color** to get a new color for every message.
+- The **preview** on the right always shows the current state of your embed as it will appear in Discord.
 
 Now, if we take everything we now know about embeds, we can make a simple embed message that looks like this:
 

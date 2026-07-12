@@ -2,13 +2,16 @@
 
 The verification plugin affects new members of your server by requiring them to go through a security check before they can have access to the server.
 
+## Enabling Verification
+
+Verification is turned on and off with the **Enabled** switch at the top of the verification settings. While it is disabled, the plugin will not function.
+
 ## Verification Level
 
 The *verification level* of your server is the type of verification in your server. It gradually gets more secure for each level.
 
-There are 4 verification levels:
+There are 3 verification levels:
 
-- **Disabled**: The verification plugin of your server is turned off and will not function.
 - **Button**: Requires new members to click a button created by Invite Tracker to get their verification role. This is the simplest verification method.
 - **Captcha**: Requires new members to solve an image-based captcha sent by Invite Tracker via DM to get their verification role. The captcha displays distorted text that users must type correctly.
 - **Website**: Requires new members to complete verification on the Invite Tracker website. When a member joins, they receive a link that takes them to a secure verification page where they solve an hCaptcha challenge. This offers the best protection against bots and raids because:
@@ -20,9 +23,9 @@ There are 4 verification levels:
 ![Verification Level](/assets/verification/verification-level.png)
 
 ::: info
-When selecting a level you must also ensure that you click **Send Verification Panel**. 
+When selecting a level you must also ensure that you click **Send verification panel**. 
 
-Clicking this will cause Invite Tracker to attempt to send a verification button to your server's [verification channel](#verification-channel). 
+Clicking this will cause Invite Tracker to attempt to send a verification button to your server's [panel channel](#panel-channel). 
 
 If Invite Tracker fails, please grant it the required permissions for that channel.
 :::
@@ -33,7 +36,7 @@ We recommend using the **Website** option for this feature as it is the most sec
 
 ## Verification Timeout
 
-The *verification timeout* is the number of seconds an unverified user has to verify before being automatically kicked or banned. This only applies if your [verification action](#verification-action) is set to kick or ban.
+The *verification timeout* is the number of seconds an unverified user has to verify before being automatically kicked or banned. This only applies if your [timeout action](#timeout-action) is set to kick or ban.
 
 ![Verification Timeout](/assets/verification/verification-timeout.png)
 
@@ -45,11 +48,11 @@ Users need time to verify, so remember to set the *verification timeout* accordi
 A server's *verification timeout* must be between 15 and 1800 seconds.
 :::
 
-## Verification Action
+## Timeout Action
 
 This feature decides the effect of the [verification timeout](#verification-timeout) feature.
 
-There are two *verification actions*:
+There are three *timeout actions*:
 
 - **Kick**: If a user does not verify within the *verification timeout*, they will be kicked from the server.
 - **Ban**: If a user does not verify within the *verification timeout*, they will be banned from the server.
@@ -58,7 +61,7 @@ There are two *verification actions*:
 ![Verification Action](/assets/verification/verification-action.png)
 
 ::: info
-Every server's default *verification action* is set to kick.
+Every server's default *timeout action* is set to kick.
 :::
 
 ::: danger
@@ -75,9 +78,9 @@ The *verification role* of your server is the role that is granted to the user a
 When configuring the Verification Role in your server, make sure the Invite Tracker bot role is above the role you want to give.
 :::
 
-## Verification Channel
+## Panel Channel
 
-The *verification channel* of your server is the channel where the verification message will be sent.
+The *panel channel* of your server is the channel where the verification panel will be sent. You can find it in the **Verification panel** section, together with the **Send verification panel** button.
 
 ![Verification Channel](/assets/verification/verification-channel.png)
 
@@ -85,13 +88,13 @@ The *verification channel* of your server is the channel where the verification 
 Remember to give Invite Tracker the correct [permissions](/faq#what-are-the-required-permissions-for-invite-tracker) so it can post verification messages.
 :::
 
-## <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Verification Custom Embed
+## <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Custom Embed
 
-*Verification Custom Embed* allows you to customize the embed for your [verification channel](#verification-channel).
+*Custom embed* allows you to customize the embed used on the verification panel in your [panel channel](#panel-channel).
 
 ![Verification Custom Embed](/assets/verification/verification-custom-embed.png)
 
-Once enabled, you can customize what the embed looks like. The new embed is sent out when you click on the *Send Verification Panel* button.
+Once enabled, you can customize what the embed looks like. The new embed is sent out when you click on the *Send verification panel* button.
 
 ## Verification Logs
 
@@ -101,7 +104,7 @@ Once enabled, you can customize what the embed looks like. The new embed is sent
 
 ## Verification Logs Channel
 
-The *verification logs channel* of your server is where your server's *verification logs* are sent.
+The *logs channel* of your server is where your server's *verification logs* are sent.
 
 ::: warning
 You need to enable the [verification logs](#verification-logs) switch for this feature to work.

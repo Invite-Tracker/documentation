@@ -20,7 +20,7 @@ The explanation for all the administration commands available for Invite Tracker
 | --- | --- |
 | :star: `/massban <@user\|invite_code>` | Allows you to ban everyone invited by a specific user or you can choose to mass ban everyone invited by a specific invite code. |
 | :star: `/exportleaderboard <leaderboard_type>` | Allows you to export the invites or messages leaderboard type. This gives you raw data that can be downloaded from a .csv file format. |
-| :star: `/exportinvitedlist <@user\|invite_code\|invite_label\|filter_role>` | Allows you to export a list of the specified type to a downloadable .csv file format. What are Invite Labels? Click [here](/dashboard/invite-tracking#invite-label) for more info. |
+| :star: `/exportinvitedlist <@user\|invite_code\|invite_label\|filter_role>` | Allows you to export a list of the specified type to a downloadable .csv file format. What are Invite Labels? Click [here](/dashboard/invite-tracking#invite-labels) for more info. |
 
 ::: info
 The export commands have a cooldown of 5 minutes to prevent abuse.

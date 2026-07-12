@@ -9,7 +9,7 @@ Invite Tracker records every join and leave as it happens. The analytics page tu
 1. A **growth chart** showing joins and leaves over time
 2. **Overview stats**: net growth, joins, leaves and member retention
 3. A **join sources** breakdown (invite links, vanity URL, bots, unknown)
-4. Your **top invites**, with their [invite labels](/dashboard/invite-tracking#invite-label) when configured
+4. Your **top invites**, with their [invite labels](/dashboard/invite-tracking#invite-labels) when configured
 5. Your **top inviters**, with how many of their invited members actually stayed
 
 ::: info
@@ -57,7 +57,7 @@ The explanation of how fake invites are detected can be found [here](/dashboard/
 
 ## Top Invites
 
-This section lists the invite links that brought the most members during the selected period. If an invite has an [invite label](/dashboard/invite-tracking#invite-label), the label is shown under the invite code — perfect for tracking campaigns like a YouTube description link or a partner server.
+This section lists the invite links that brought the most members during the selected period. If an invite has an [invite label](/dashboard/invite-tracking#invite-labels), the label is shown under the invite code — perfect for tracking campaigns like a YouTube description link or a partner server.
 
 ## <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Top Inviters
 

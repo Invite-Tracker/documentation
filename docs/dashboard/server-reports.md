@@ -38,7 +38,7 @@ Every report includes:
 Premium reports additionally include:
 
 - **Member retention**: how many of the members who joined during the period are still on the server
-- The **top invite links** of the period, with their [invite labels](/dashboard/invite-tracking#invite-label)
+- The **top invite links** of the period, with their [invite labels](/dashboard/invite-tracking#invite-labels)
 - A **growth graph** visualizing joins and leaves over the period
 - Five top inviters instead of three
 

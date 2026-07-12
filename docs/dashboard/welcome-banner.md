@@ -24,7 +24,7 @@ The banner editor provides a visual canvas where you can add and arrange element
 
 You can add various elements to your banner:
 
-- **Text Elements** - Add custom text with variables like `{member}`, `{server}`, etc.
+- **Text Elements** - Add custom text with variables like `%member%`, `%guild_name%`, etc.
 - **Images** - Upload custom images or use placeholders
 - **Shapes** - Add rectangles, circles, ellipses, and triangles
 - **Avatar Placeholders** - Display the joining member's avatar, inviter's avatar, or server icon
@@ -53,11 +53,11 @@ You can add dynamic avatar placeholders that automatically display:
 
 Text elements support the same variables used in regular join messages. Common variables include:
 
-- `{member}` - The member's display name
-- `{member_name}` - The member's username
-- `{server}` - The server name
-- `{inviter}` - The inviter's display name
-- `{member_count}` - The server's member count
+- `%member%` - The member's display name
+- `%member_name%` - The member's username
+- `%guild_name%` - The server name
+- `%inviter%` - The inviter's display name
+- `%member_count%` - The server's member count
 
 ::: tip
 See the full list of available variables on the [Variables](/dashboard/messages/variables) page.

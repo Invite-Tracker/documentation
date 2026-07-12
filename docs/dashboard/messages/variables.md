@@ -68,7 +68,7 @@ You can use variables when making a join, joinDM or Leave message. Variables are
 | `%invite_code%` | The invite code the user used | `JOIN` |
 | `%invite_uses%` | The number of uses the invite code has | `JOIN` |
 | `%invite_url%` | The invite url | `JOIN` |
-| `%invite_label%` | The invite label. Otherwise, defaults to the invite code. What are Invite Labels? Click [here](/dashboard/invite-tracking#invite-label) for more info. | `JOIN`, `LEAVE`, `JOIN DM` |
+| `%invite_label%` | The invite label. Otherwise, defaults to the invite code. What are Invite Labels? Click [here](/dashboard/invite-tracking#invite-labels) for more info. | `JOIN`, `LEAVE`, `JOIN DM` |
 | `%random_color%` | Random color for embeds | `JOIN`, `LEAVE` |
 
 ## Server Variables

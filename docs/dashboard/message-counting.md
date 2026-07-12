@@ -22,9 +22,9 @@ A good *message count delay* is 10 seconds.
 A server's *message count delay* must be between 0 and 300 seconds.
 :::
 
-## Messages Channels Blacklist
+## Blacklisted Channels
 
-This is where you can blacklist a channel from having messages counted. Messages sent by users in a blacklisted channel will not be counted towards their total amount of messages sent.
+This is where you can blacklist a channel from having messages counted. You can find it in the **Counting blacklists** card. Messages sent by users in a blacklisted channel will not be counted towards their total amount of messages sent.
 
 ![Messages Channels Blacklist](/assets/message-counting/channel-blacklist.png)
 
@@ -38,7 +38,7 @@ Free servers can only have a maximum of 5 blacklisted channels.
 Premium servers can have an unlimited amount of blacklisted channels.
 :::
 
-## Role Messages Blacklist
+## Blacklisted Roles
 
 This is where you can blacklist a role from having messages counted. Users with the selected role will not have their messages counted.
 
@@ -50,7 +50,7 @@ Free servers can only have a maximum of 3 blacklisted roles.
 Premium servers can have an unlimited amount of blacklisted roles.
 :::
 
-## User Messages Blacklist
+## Blacklisted Members
 
 This is where you can blacklist members from having their messages counted by using their user IDs. Messages sent by message-blacklisted users are not tracked by Invite Tracker and will not count towards their total amount of messages sent.
 

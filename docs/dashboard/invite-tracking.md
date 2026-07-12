@@ -31,7 +31,7 @@ A good *fake delay* is 5 days.
 A server's *fake delay* must be between 0 and 300 days.
 :::
 
-## User Invites Blacklist
+## Invite Blacklist
 
 This is where you invite blacklist members using their user IDs. Invite-blacklisted users' invites are not tracked by Invite Tracker and they do not gain any invites. Welcome/leave messages are not affected by this.
 
@@ -51,9 +51,9 @@ Premium servers can have a maximum amount of 100 invite-blacklisted users.
 Be careful not to blacklist the wrong users.
 :::
 
-## Invites Leaderboard Hidden Users
+## Hidden From Leaderboard
 
-This is where you can hide users from the invites leaderboard using their user IDs. Invite leaderboard hidden users' invites are still tracked but not shown on the leaderboard.
+This is where you can hide users from the invites leaderboard using their user IDs. Hidden users' invites are still tracked but not shown on the leaderboard.
 
 ![Invites Leaderboard Hidden Users](/assets/invite-tracking/hidden-users.png)
 
@@ -61,7 +61,7 @@ This is where you can hide users from the invites leaderboard using their user I
 Information regarding how to get a user's ID can be found [here](/information#copying-a-user-id).
 :::
 
-## Invite Label
+## Invite Labels
 
 Invite Labels allow you to label specific invite codes to track where members are joining from. You can also optionally assign a role that will automatically be given to members when they join using that specific invite code.
 
@@ -69,7 +69,7 @@ Invite Labels allow you to label specific invite codes to track where members ar
 
 ### Setting Up an Invite Label
 
-1. Select your invite code type (e.g, "Regular Invite Code" or "Server Vanity Invite")
+1. Select your invite code type ("Regular invite code" or "Server vanity invite")
 2. Paste your invite link or code (e.g., `discord.gg/someinvite` or just `someinvite`)
 3. Enter a custom text label to identify this invite source
 4. **(Optional)** Select a role to automatically assign to members who join via this invite
