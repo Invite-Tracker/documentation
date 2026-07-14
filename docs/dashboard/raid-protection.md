@@ -15,6 +15,8 @@ This compound condition is what keeps false alarms away: a partnered event or a 
 
 Once tripped, the raid response stays active for your configured **response duration** and extends itself while the join surge continues.
 
+![Raid Detection](/assets/raid-protection/raid-detection.png)
+
 ::: info
 Free servers run the stock thresholds (10 joins/minute, 60% young-account ratio, 7-day account age, 10-minute response). Customizing them requires <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Premium.
 :::
@@ -48,6 +50,8 @@ With **Respond automatically** enabled, the actions you pick are applied within 
 - **Kick young accounts** — accounts younger than your age threshold are kicked during the response. They can rejoin normally once it ends.
 - **Pause invite crediting** — joins during a raid don't count towards invite leaderboards or rewards, so raiders and reward farmers can't pollute them.
 
+![Automatic Response](/assets/raid-protection/automatic-response.png)
+
 ::: tip
 **Force verification** needs a working verification setup: configure it on the [Verification](/dashboard/verification) page and send a verification panel first. Without one, this action is skipped and the alert tells you so.
 :::
@@ -58,9 +62,15 @@ The `/lockdown start` command activates the raid response on demand — useful b
 
 Both commands require the **Administrator** permission. Starting a lockdown enables raid protection for your server if it wasn't enabled yet.
 
+While a response is active — raid or lockdown — a live banner shows up at the top of the dashboard's **Raid Protection** page, and you can end it from there too.
+
+![Active Lockdown](/assets/raid-protection/active-incident.png)
+
 ## Incident History
 
 Every raid and lockdown is recorded with its trigger, duration, join counts, the top invites used and the response actions taken. You can review incidents on the dashboard's **Raid Protection** page — an active incident shows up live with its counters, and you can end the response right from there.
+
+![Incident History](/assets/raid-protection/incident-history.png)
 
 ::: info
 Free servers keep **3 days** of incident history. <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Premium servers keep it forever.
