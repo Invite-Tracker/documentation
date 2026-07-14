@@ -26,9 +26,9 @@ The explanation for all the general commands available for Invite Tracker.
 | Command | Description |
 | --- | --- |
 | `/add` | Displays a link used to invite Invite Tracker |
+| `/bot-support` | Displays the Discord invite link used to join the support server for the Invite Tracker bot |
 | `/dashboard` | Displays the link used to access Invite Tracker's dashboard |
 | `/documentation` | Displays the link used to access this website |
-| `/support` | Displays the Discord invite link used to join our support server |
 | `/variables` | Displays the link used to view all variables |
 | `/vote` | Displays the link used to vote for the bot |
 
