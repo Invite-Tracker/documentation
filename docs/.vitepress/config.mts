@@ -48,6 +48,7 @@ export default defineConfig({
             { text: 'Administration', link: '/dashboard/administration' },
             { text: 'Verification', link: '/dashboard/verification' },
             { text: 'Raid Protection', link: '/dashboard/raid-protection' },
+            { text: 'Honeypot', link: '/dashboard/honeypot' },
             { text: 'Invite Tracking', link: '/dashboard/invite-tracking' },
             { text: 'Analytics', link: '/dashboard/analytics' },
             { text: 'Server Reports', link: '/dashboard/server-reports' },
