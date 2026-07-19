@@ -12,6 +12,8 @@ The **Create #honeypot** button sets one up in a single click: visible to everyo
 
 If a trap channel gets deleted on Discord, it is removed from the honeypot automatically and a notice is posted to your log channel.
 
+![Trap Channels](/assets/honeypot/trap-channels.png)
+
 ::: info
 Free servers run **1 trap channel**; <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Premium servers can run up to **5**.
 :::
@@ -21,6 +23,8 @@ Free servers run **1 trap channel**; <img src="/assets/premium.png" alt="Premium
 So no honest member walks into the trap, the bot keeps a pinned warning in every trap channel explaining exactly what it is. The warning is posted and pinned automatically when you save — edits update the pinned message in place, and disabling the warning or removing the channel deletes it again.
 
 Free servers post the stock warning. <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Premium servers can write their own warning text, use a fully custom embed, or turn the warning off entirely.
+
+![Pinned Warning](/assets/honeypot/pinned-warning.png)
 
 ::: warning
 The bot needs the **Send Messages** and **Manage Messages** permissions in the trap channel to post and pin the warning — the dashboard shows a notice if it couldn't.
@@ -32,6 +36,8 @@ Any message from a non-exempt member in a trap channel triggers the punishment:
 
 - **Kick & purge** (the default) — the member is kicked and their messages from the last **24 hours** are deleted from every channel. It's a kick, not a ban: a wrongly caught human can simply rejoin.
 - <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Premium servers can switch to **log only** (a safe way to test the trap), **ban** or **timeout** — and tune the message-deletion window (0–168 hours) and the timeout duration (1–672 hours).
+
+![Punishment](/assets/honeypot/punishment.png)
 
 Every trigger is reported to your **log channel**: who was caught, their account age and join date, the message that gave them away, and whether the punishment succeeded. <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Premium servers can also **ping a role** with every report.
 
@@ -52,6 +58,8 @@ If several members who have been in your server for over a month post in the tra
 ## Trigger History
 
 Every catch is recorded with the offending message kept as evidence — review them on the dashboard's **Honeypot** page, along with a running total of everyone the trap has caught.
+
+![Trigger History](/assets/honeypot/trigger-history.png)
 
 ::: info
 Free servers keep the **last 5 catches from the past 3 days**; <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Premium servers keep the **last 20 from the past 30 days**.
