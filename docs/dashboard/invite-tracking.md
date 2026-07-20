@@ -35,6 +35,8 @@ A server's *fake delay* must be between 0 and 300 days.
 
 By default, a member who leaves your server and later joins again grants their inviter a regular invite again. When *don't count rejoins* is enabled, members who have already been in your server before count as fake invites when they come back: the inviter gains a regular invite and a fake invite, exactly like a join from an account younger than the [fake delay](#fake-delay).
 
+![Don't Count Rejoins](/assets/invite-tracking/dont-count-rejoins.png)
+
 ::: info
 This option is disabled by default, so rejoins keep counting as regular invites until you enable it.
 :::
