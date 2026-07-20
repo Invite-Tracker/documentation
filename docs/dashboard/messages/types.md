@@ -11,7 +11,7 @@ Invite Tracker allows each user to have a specific amount of **regular**, **left
 | `Regular` | This invite is added to the inviter when someone joins with their invite, no matter what. |
 | `Left` | This invite is added to the inviter of the person who joined with their invite when they leave the server. |
 | `Bonus` | This type of invite can be added via commands by administrators. |
-| `Fake` | This type of invite is added to the inviter when someone joins with their invite, but the new member's account age is less than the server's [fake delay](/dashboard/invite-tracking#fake-delay). |
+| `Fake` | This type of invite is added to the inviter when someone joins with their invite, but the new member's account age is less than the server's [fake delay](/dashboard/invite-tracking#fake-delay), or the member has already been in the server before and [don't count rejoins](/dashboard/invite-tracking#don-t-count-rejoins) is enabled. |
 
 ## Message Types
 

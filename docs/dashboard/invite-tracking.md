@@ -1,6 +1,6 @@
 # Invite Tracking
 
-The invite tracking plugin lets you choose a fake delay for your server, blacklist/hide users, and manage your Invite Labels.
+The invite tracking plugin lets you choose a fake delay for your server, decide whether rejoins count, blacklist/hide users, and manage your Invite Labels.
 
 ## How Fake Invite Detection Works
 
@@ -29,6 +29,20 @@ A good *fake delay* is 5 days.
 
 ::: warning
 A server's *fake delay* must be between 0 and 300 days.
+:::
+
+## Don't Count Rejoins
+
+By default, a member who leaves your server and later joins again grants their inviter a regular invite again. When *don't count rejoins* is enabled, members who have already been in your server before count as fake invites when they come back: the inviter gains a regular invite and a fake invite, exactly like a join from an account younger than the [fake delay](#fake-delay).
+
+::: info
+This option is disabled by default, so rejoins keep counting as regular invites until you enable it.
+:::
+
+::: warning
+Invite Tracker only detects rejoins it has witnessed. Members who joined and left your server before Invite Tracker was added are counted as first-time joins when they come back.
+
+Rejoin detection is not affected by `/resetinvites`: a member who has been in your server before still counts as a rejoin after an invite reset.
 :::
 
 ## Invite Blacklist
