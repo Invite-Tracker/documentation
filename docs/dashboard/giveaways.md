@@ -128,11 +128,15 @@ If you would like to make your scheduled giveaway repeat, turn on the **Repeatin
 The scheduled giveaway repeats at the configured time in your time zone.
 :::
 
-## Editing a Giveaway
+## <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Editing a Giveaway
 
-To edit a giveaway, just click the **Blue Pencil** button. This will show almost the exact same menu as the giveaway creation menu.
+To edit a running giveaway, just click the **Blue Pencil** button. This will show almost the exact same menu as the giveaway creation menu.
 
 ![Edit Giveaway](/assets/giveaways/edit-giveaway.png)
+
+::: warning
+Editing running giveaways is a Premium feature.
+:::
 
 From here you can edit anything you like and after you save, Invite Tracker will make the necessary changes to the giveaway in the server.
 
