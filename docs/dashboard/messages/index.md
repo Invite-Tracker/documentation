@@ -64,6 +64,10 @@ There is automatically a join/leave message set by default that can be used as s
 A list explaining all the different sub-message types and their use can be found [here](./types#sub-message-types).
 :::
 
+::: info
+<img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Configuring the `Vanity` sub-message type is a Premium feature.
+:::
+
 ## The Message
 
 ### Creating the Message
