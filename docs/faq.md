@@ -44,6 +44,10 @@ On free servers, there is an option to vote for the bot to gain **1 extra entry*
 
 It is important to note that this extra vote is not reflected in the "Participants" count. However, the bot will check if you have voted when the giveaway ends, so make sure to keep voting [here!](https://top.gg/bot/720351927581278219/vote)
 
+::: info
+Giveaways on Premium servers do not show the vote button, and no extra vote entry is applied to them.
+:::
+
 ## How do I manage my premium subscription?
 
 Users can manage their dashboard subscriptions from the new My Account page. Click [here](/dashboard/my-account) to see how it works.
