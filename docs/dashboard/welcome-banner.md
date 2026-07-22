@@ -2,6 +2,10 @@
 
 The welcome banner plugin allows you to create dynamic, customizable image banners that are sent when new members join your server. These banners can include the member's avatar, custom text, images, and various design elements.
 
+::: info
+The Welcome Banner is currently being rolled out gradually and may not be visible on your server's dashboard yet.
+:::
+
 ## Overview
 
 Welcome banners are image-based welcome messages that provide a visually appealing way to greet new members. The banner editor is a canvas-based tool that lets you design banners with drag-and-drop elements.
@@ -11,8 +15,12 @@ Welcome banners are image-based welcome messages that provide a visually appeali
 To enable welcome banners, navigate to your server's **Join Messages** page on the dashboard. You'll find the banner options in the message configuration section.
 
 1. Enable the **Welcome Banner** toggle
-2. Choose your banner type (Normal or Animated)
+2. Choose the banner type you want to configure — the same [sub-message types](/dashboard/messages/types#sub-message-types) as regular join messages (**Normal**, **Vanity**, **Bot**, **No-Perm** and **Unknown**)
 3. Use the banner editor to customize your design
+
+::: info
+<img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Banner types other than `Normal` are a Premium feature.
+:::
 
 ![Enable Banner](/assets/welcome-banner/enable-banner.png)
 
@@ -79,6 +87,7 @@ Templates provide a quick starting point. You can fully customize any template a
 
 | Feature | Free Limit |
 | --- | --- |
+| Banner Types | Normal only |
 | Maximum Elements | 6 |
 | Maximum Images | 1 |
 | Available Shapes | Rectangle only |
@@ -91,6 +100,7 @@ Templates provide a quick starting point. You can fully customize any template a
 
 | Feature | Premium Limit |
 | --- | --- |
+| Banner Types | All types (Normal, Vanity, Bot, No-Perm, Unknown) |
 | Maximum Elements | 50 |
 | Maximum Images | 10 |
 | Available Shapes | Rectangle, Circle, Ellipse, Triangle |
