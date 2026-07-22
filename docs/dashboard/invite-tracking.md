@@ -77,6 +77,12 @@ This is where you can hide users from the invites leaderboard using their user I
 Information regarding how to get a user's ID can be found [here](/information#copying-a-user-id).
 :::
 
+::: warning
+Free servers can only have a maximum of 3 users hidden from the leaderboard.
+
+Premium servers can have a maximum amount of 100 users hidden from the leaderboard.
+:::
+
 ## Invite Labels
 
 Invite Labels allow you to label specific invite codes to track where members are joining from. You can also optionally assign a role that will automatically be given to members when they join using that specific invite code.
