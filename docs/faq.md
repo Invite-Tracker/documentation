@@ -10,7 +10,7 @@ Due to Discord changing the prefixes, the forward slash will be the prefix used.
 
 ## Why is Invite Tracker not responding to my commands?
 
-Firstly, make sure the bot is not offline and that there are no current outages by checking Invite Tracker's support server's [outage channel](https://discord.gg/MfTenmfQuP).
+Firstly, make sure the bot is not offline and that there are no current outages by checking Invite Tracker's support server's [outage channel](https://discord.gg/8RwBGuf).
 
 If there are no obvious outages, please mention the bot to check if Invite Tracker has enough permissions to view the channel. (You can not add any text other than the actual mention for this to work)
 
