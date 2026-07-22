@@ -61,7 +61,7 @@ export default defineConfig({
               text: 'Tickets',
               collapsed: false,
               items: [
-                { text: 'Overview', link: '/dashboard/tickets/index' },
+                { text: 'Overview', link: '/dashboard/tickets/' },
                 { text: 'Panel', link: '/dashboard/tickets/panels' },
                 { text: 'Templates', link: '/dashboard/tickets/templates' },
                 { text: 'History', link: '/dashboard/tickets/history' },
