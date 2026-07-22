@@ -20,7 +20,7 @@ To find out which cluster and shard your server is on, copy and paste your serve
 
 Once you have the shard number, head down to the **All shards** grid at the bottom of the page. Every box represents a shard. Locate the box with your server's shard number and hover over it to view its details, including its current ping.
 
-![Status Clusters](/assets/status/status-clusters.png)
+![All Shards](/assets/status/status-shards.png)
 
 ::: info
 If a shard is colored **green**, it is online and operational. Invite Tracker is fully functional.
