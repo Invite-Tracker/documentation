@@ -63,7 +63,7 @@ Information regarding how to get a user's ID can be found [here](/information#co
 ::: warning
 Free servers can only have a maximum of 3 blacklisted users.
 
-Premium servers can have an unlimited amount of blacklisted users.
+Premium servers can have a maximum amount of 100 blacklisted users.
 :::
 
 ::: danger
