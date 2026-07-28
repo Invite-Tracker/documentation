@@ -1,6 +1,6 @@
 # Invite Tracking
 
-The invite tracking plugin lets you choose a fake delay for your server, decide whether rejoins count, blacklist/hide users, and manage your Invite Labels.
+The invite tracking plugin lets you choose a fake delay for your server, decide whether rejoins count, blacklist users or roles, hide users from the leaderboard, and manage your Invite Labels.
 
 ## How Fake Invite Detection Works
 
@@ -65,6 +65,24 @@ Premium servers can have a maximum amount of 100 invite-blacklisted users.
 
 ::: danger
 Be careful not to blacklist the wrong users.
+:::
+
+## <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Role Blacklist
+
+This is where you blacklist entire roles from gaining invites. Members with any of the selected roles do not gain any invites when someone joins through their invite links. Welcome/leave messages are not affected by this.
+
+This is useful to keep staff, moderators, or bot-managed roles out of invite rewards and competitions without blacklisting each member one by one.
+
+![Role Invites Blacklist](/assets/invite-tracking/role-blacklist.png)
+
+::: info
+Whether a join grants an invite is decided by the roles the inviter holds at the time of the join. Nothing is changed retroactively: invites gained before a role was blacklisted are kept, and joins that were not counted are not granted back when the role is removed.
+
+The blacklist can take a short moment to start applying to new joins right after you configure it.
+:::
+
+::: warning
+Blacklisting roles from gaining invites is exclusive to premium servers.
 :::
 
 ## Hidden From Leaderboard
