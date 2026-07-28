@@ -156,13 +156,18 @@ To reroll an ended giveaway, just click the **Blue Present** button. This will o
 
 - **Giveaway Blacklisted Roles** are roles that disallow any user with any of these roles from joining any giveaways.
 - **Giveaway Bypass Roles** are roles that allow any user with any of these roles to join any giveaway even if they do not meet the requirements.
+- **Giveaway Ping Roles** are roles that get pinged whenever a giveaway starts. The mentions are sent together with the giveaway message.
 
 ![Giveaway Roles](/assets/giveaways/general-settings.png)
 
 ::: warning
-Free servers can only have a maximum of 5 giveaway blacklisted roles and 5 giveaway bypass roles.
+Free servers can only have a maximum of 5 giveaway blacklisted roles, 5 giveaway bypass roles and 1 giveaway ping role.
 
-Premium servers can have an unlimited amount of giveaway blacklisted roles and giveaway bypass roles.
+Premium servers can have an unlimited amount of giveaway blacklisted roles and giveaway bypass roles, and up to 25 giveaway ping roles.
+:::
+
+::: info
+A ping role only notifies its members if the role is mentionable or Invite Tracker has the **Mention @everyone, @here and All Roles** permission in the giveaway channel. Otherwise the mention is still shown but nobody gets notified.
 :::
 
 ## Giveaway Templates
