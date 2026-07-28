@@ -38,6 +38,7 @@ export default defineConfig({
             { text: 'FAQ', link: '/faq' },
             { text: 'Bot Profile', link: '/dashboard/bot-profile' },
             { text: 'Custom Bot', link: '/dashboard/custom-bot' },
+            { text: 'Custom Bot: Intent Review', link: '/dashboard/custom-bot-intent-review' },
             { text: 'My Account', link: '/dashboard/my-account' }
           ]
         },
