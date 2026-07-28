@@ -32,7 +32,7 @@ This feature sends an automatic updating message leaderboard to the selected cha
 After we press save, Invite Tracker will instantly create and pin a message leaderboard in the specified channel.
 
 ::: tip
-Daily/Weekly leaderboards show the previous 24 hours/week from the last 15 minute update.
+Daily, weekly and monthly leaderboards show the previous 24 hours, 7 days and 30 days from the last 15 minute update.
 :::
 
 ## Leaderboard Types
@@ -42,8 +42,9 @@ You can create separate pinned leaderboards for different time ranges:
 | Type | Description |
 | --- | --- |
 | **All Time** | Shows cumulative totals since the bot started tracking |
-| **Daily** | Shows activity from the last 24 hours, resetting each day |
-| **Weekly** | Shows activity from the last 7 days, resetting each week |
+| **Daily** | Shows activity from the last 24 hours |
+| **Weekly** | Shows activity from the last 7 days |
+| **Monthly** | Shows activity from the last 30 days |
 
 ::: tip
 You can have multiple leaderboards pinned in different channels - for example, an all-time leaderboard in your stats channel and a weekly leaderboard in your announcements channel.

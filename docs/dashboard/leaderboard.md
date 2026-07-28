@@ -4,7 +4,7 @@ The leaderboard page gives premium servers a live view of their top inviters and
 
 ## Dashboard Leaderboard
 
-The dashboard leaderboard ranks the top 50 members by **invites** or **messages**, over **all time**, the **last 7 days** or the **last 24 hours**.
+The dashboard leaderboard ranks the top 50 members by **invites** or **messages**, over **all time**, the **last 30 days**, the **last 7 days** or the **last 24 hours**.
 
 For the invite leaderboard, every entry also shows:
 
