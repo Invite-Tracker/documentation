@@ -26,12 +26,16 @@ First, head to the Installation tab on the left. (1) Select the dropdown menu in
 
 ![Install Link Step 2](/assets/custom-bot/install-link-2.png)
 
-Next, head to the Bot tab. From there, disable the **Public Bot** option and enable the **Server Members Intent** option.
+Next, head to the Bot tab. From there, disable the **Public Bot** option and enable both the **Server Members Intent** and **Message Content Intent** options.
 
 ![App Permissions](/assets/custom-bot/app-perms.gif)
 
 ::: danger
-The custom bot will not work without the **Server Members Intent** option.
+Both intents are required: the custom bot will not work without the **Server Members Intent** option, and ticket transcripts require the **Message Content Intent** option.
+:::
+
+::: warning Server with 10,000+ members?
+Discord requires applications that can reach **10,000+ users** to apply for Privileged Intent access — for a custom bot, that means a server with 10,000+ members. See [Custom Bot: Privileged Intent Review](/dashboard/custom-bot-intent-review) for a full walkthrough of the form, including ready-to-use answers.
 :::
 
 To invite the custom bot to your server, head to the OAuth2 tab on the left. Select **bot** in OAuth2 URL Generator and **Administrator** in Bot Permissions. You will then be able to use the Generated URL to invite your custom bot to the server by copying and pasting the link into your browser. You could also copy and paste the link into your discord, clicking the link to invite the custom bot.
