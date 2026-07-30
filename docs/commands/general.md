@@ -7,6 +7,7 @@ The explanation for all the general commands available for Invite Tracker.
 | Command | Description |
 | --- | --- |
 | `/about` | Displays information about Invite Tracker |
+| `/check-permissions [#channel]` | Checks whether the bot has all the permissions it needs in the specified channel (or the current one) and in the server |
 | `/help [command]` | Displays the help page with all commands or an in-depth explanation of the specified command |
 | `/roleinfo <@role>` | Displays information about a specified role |
 | `/serverinfo` | Displays information about the server |
