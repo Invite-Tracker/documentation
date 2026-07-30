@@ -18,6 +18,7 @@ The explanation for all the administration commands available for Invite Tracker
 
 | Command | Description |
 | --- | --- |
+| `/check-permissions [#channel]` | Checks whether the bot has all the permissions it needs in the specified channel (or the current one) and in the server |
 | :star: `/massban <@user\|invite_code>` | Allows you to ban everyone invited by a specific user or you can choose to mass ban everyone invited by a specific invite code. |
 | :star: `/lockdown start [duration]` | Manually activates the [raid response](/dashboard/raid-protection): pauses server invites, pauses invite crediting and applies your configured response actions for the chosen duration. |
 | :star: `/lockdown end` | Ends the active lockdown or raid response early and restores paused invites. |
