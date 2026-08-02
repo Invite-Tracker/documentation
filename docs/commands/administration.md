@@ -18,6 +18,7 @@ The explanation for all the administration commands available for Invite Tracker
 
 | Command | Description |
 | --- | --- |
+| `/setup` | Opens the interactive setup panel: shows whether invite tracking is working and lets you enable join messages by picking a channel — a sample message is posted right away. Requires the *Manage Server* permission. |
 | `/check-permissions [#channel]` | Checks whether the bot has all the permissions it needs in the specified channel (or the current one) and in the server |
 | `/massban <@user\|invite_code>` | **Premium feature.** Allows you to ban everyone invited by a specific user or you can choose to mass ban everyone invited by a specific invite code. |
 | `/lockdown start [duration]` | **Premium feature.** Manually activates the [raid response](/dashboard/raid-protection): pauses server invites, pauses invite crediting and applies your configured response actions for the chosen duration. |

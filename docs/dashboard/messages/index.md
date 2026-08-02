@@ -28,6 +28,10 @@ You can find the complete list of variables [here](./variables).
 
 ## Configuration
 
+::: tip
+Join messages can also be enabled without the dashboard: pick a channel on the setup panel the bot posts when it joins your server, or run `/setup` in your server. This enables them with the default message and posts a sample right away — the dashboard remains the place to customize the wording, embeds and banners.
+:::
+
 ### Enabled
 
 First, you want to enable the plugin. Click the toggle to do so.

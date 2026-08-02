@@ -64,6 +64,8 @@ Keep in mind that just giving the permissions to its role sometimes may not work
 
 If you want to give Invite Tracker all permissions without any more hassle, you may grant *Administrator* to the Invite Tracker role. By default when adding the bot, *Administrator* is already applied.
 
+To quickly check whether something is missing, run `/check-permissions` in the channel you are having trouble with, or `/setup` for an overall health check of the bot in your server.
+
 | Permission | Usage |
 | --- | --- |
 | `Administrator` | Grants all permissions |
