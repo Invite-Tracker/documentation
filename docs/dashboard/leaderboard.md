@@ -1,4 +1,8 @@
-# <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Leaderboard
+# Leaderboard
+
+::: info Premium feature
+The leaderboard page and the public web leaderboard require [Invite Tracker Premium](/premium).
+:::
 
 The leaderboard page gives premium servers a live view of their top inviters and top messengers — richer than the `/leaderboard` command — and lets you publish it as a public web page with your own custom link.
 

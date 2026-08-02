@@ -1,4 +1,8 @@
-# <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Ticket Analytics
+# Ticket Analytics
+
+::: info Premium feature
+The detailed ticket analytics require [Invite Tracker Premium](/premium). Free servers only see the basic ticket counts and a locked preview of the detailed metrics.
+:::
 
 The **Analytics** page turns your ticket history into a performance dashboard for your support team: how many tickets you handle, how fast members get help, who does the work, and how satisfied members are with the support they received.
 

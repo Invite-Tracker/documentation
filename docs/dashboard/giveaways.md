@@ -80,7 +80,7 @@ Only numbers can go here to set the number of messages you want to require to be
 
 **Bonus Entry Roles** are all awarded a specified amount of bonus entries to the giveaway. Users with these roles have an increased chance of winning the giveaway.
 
-<img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> **Roles Granted To Winners** are roles that are granted to the winner(s) of the giveaway.
+**Roles Granted To Winners** are roles that are granted to the winner(s) of the giveaway. Granting roles to winners is a **Premium feature**.
 
 ![Bonus Entry Roles and Winner Roles](/assets/giveaways/bonus-winners.png)
 
@@ -128,15 +128,15 @@ If you would like to make your scheduled giveaway repeat, turn on the **Repeatin
 The scheduled giveaway repeats at the configured time in your time zone.
 :::
 
-## <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Editing a Giveaway
+## Editing a Giveaway
+
+::: info Premium feature
+Editing running giveaways requires [Invite Tracker Premium](/premium).
+:::
 
 To edit a running giveaway, just click the **Blue Pencil** button. This will show almost the exact same menu as the giveaway creation menu.
 
 ![Edit Giveaway](/assets/giveaways/edit-giveaway.png)
-
-::: warning
-Editing running giveaways is a Premium feature.
-:::
 
 From here you can edit anything you like and after you save, Invite Tracker will make the necessary changes to the giveaway in the server.
 

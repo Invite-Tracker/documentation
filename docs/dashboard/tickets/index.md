@@ -23,7 +23,7 @@ After members start opening tickets, the **History** page gives you a searchable
 
 ![Tickets overview](/assets/tickets/panel.png)
 
-## <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Free and Premium Limits
+## Free and Premium Limits
 
 Tickets are available to every server for free, including unlimited tickets, transcripts, basic claiming, forms, and logs. [Invite Tracker Premium](https://invite-tracker.com/premium) raises the ticket limits and unlocks the advanced ticket features.
 

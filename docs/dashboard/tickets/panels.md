@@ -55,11 +55,13 @@ Supported panel variables include `{panel.name}`, `{schedule.timezone}`, `{bot.a
 Panel embeds on free servers show a "Powered by Invite Tracker" footer and cannot use embed images, thumbnails, or author fields. Premium servers can fully customize the panel embed.
 :::
 
-## <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Opening Hours
+## Opening Hours
 
-Panel schedules are a Premium feature, configured in the **Opening Hours** section.
+::: info Premium feature
+Panel schedules (opening hours) require [Invite Tracker Premium](/premium).
+:::
 
-Panel schedules let you control when regular members can open tickets from a panel.
+Panel schedules are configured in the **Opening Hours** section. They let you control when regular members can open tickets from a panel.
 
 When **Enable Schedule** is turned on, choose a timezone and add **Weekly Windows** entries. Each entry has a day, start time, and end time. If the start time is later than the end time, the schedule continues past midnight into the next day.
 

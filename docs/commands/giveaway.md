@@ -42,7 +42,7 @@ When deleting a giveaway, Invite Tracker just permanently removes it without cho
 | `[roles_bonus_entries: <@role> <number>]` | Assigns bonus entries to members with the specified roles |
 | `[roles_required: <@role>]` | The roles required to enter the giveaway. |
 | `[roles_required_config: <all\|one of>]` | Whether to require all roles or one of the roles selected in roles_required. |
-| :star: `[winners_roles: <@role>]` | Winner roles will be automatically assigned to the winners of the giveaway |
+| `[winners_roles: <@role>]` | **Premium feature.** Winner roles will be automatically assigned to the winners of the giveaway |
 
 ::: info
 For `winners_roles` and `roles_required`, mention multiple roles in the same option value, for example `@role1 @role2 @role3`.

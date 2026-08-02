@@ -1,4 +1,8 @@
-# <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Bot Profile
+# Bot Profile
+
+::: info Premium feature
+The bot profile plugin requires [Invite Tracker Premium](/premium).
+:::
 
 The bot profile plugin allows you to customize how the Invite Tracker bot (or your custom bot) appears in your server. This includes setting a custom avatar, banner, nickname, and bio.
 

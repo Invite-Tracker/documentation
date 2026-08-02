@@ -19,11 +19,11 @@ The explanation for all the administration commands available for Invite Tracker
 | Command | Description |
 | --- | --- |
 | `/check-permissions [#channel]` | Checks whether the bot has all the permissions it needs in the specified channel (or the current one) and in the server |
-| :star: `/massban <@user\|invite_code>` | Allows you to ban everyone invited by a specific user or you can choose to mass ban everyone invited by a specific invite code. |
-| :star: `/lockdown start [duration]` | Manually activates the [raid response](/dashboard/raid-protection): pauses server invites, pauses invite crediting and applies your configured response actions for the chosen duration. |
-| :star: `/lockdown end` | Ends the active lockdown or raid response early and restores paused invites. |
-| :star: `/exportleaderboard <leaderboard_type>` | Allows you to export the invites or messages leaderboard type. This gives you raw data that can be downloaded from a .csv file format. |
-| :star: `/exportinvitedlist <@user\|invite_code\|invite_label\|filter_role>` | Allows you to export a list of the specified type to a downloadable .csv file format. What are Invite Labels? Click [here](/dashboard/invite-tracking#invite-labels) for more info. |
+| `/massban <@user\|invite_code>` | **Premium feature.** Allows you to ban everyone invited by a specific user or you can choose to mass ban everyone invited by a specific invite code. |
+| `/lockdown start [duration]` | **Premium feature.** Manually activates the [raid response](/dashboard/raid-protection): pauses server invites, pauses invite crediting and applies your configured response actions for the chosen duration. |
+| `/lockdown end` | **Premium feature.** Ends the active lockdown or raid response early and restores paused invites. |
+| `/exportleaderboard <leaderboard_type>` | **Premium feature.** Allows you to export the invites or messages leaderboard type. This gives you raw data that can be downloaded from a .csv file format. |
+| `/exportinvitedlist <@user\|invite_code\|invite_label\|filter_role>` | **Premium feature.** Allows you to export a list of the specified type to a downloadable .csv file format. What are Invite Labels? Click [here](/dashboard/invite-tracking#invite-labels) for more info. |
 
 ::: info
 The export commands have a cooldown of 5 minutes to prevent abuse.

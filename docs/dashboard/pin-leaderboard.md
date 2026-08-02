@@ -1,4 +1,8 @@
-# <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Pin Leaderboard
+# Pin Leaderboard
+
+::: info Premium feature
+The pin leaderboard plugin requires [Invite Tracker Premium](/premium).
+:::
 
 The pin leaderboard plugin lets you create self-updating leaderboards which are automatically sent and pinned in the selected channel. The pinned leaderboards automatically update every 15 minutes.
 
@@ -15,7 +19,7 @@ When you enable a pinned leaderboard:
 The 15-minute update interval helps ensure accurate data while being respectful of Discord's rate limits.
 :::
 
-## <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Invite Leaderboard
+## Invite Leaderboard
 
 This feature sends an automatically updating invite leaderboard to the selected channel.
 
@@ -23,7 +27,7 @@ This feature sends an automatically updating invite leaderboard to the selected 
 
 After we press save, Invite Tracker will instantly create and pin an invite leaderboard in the specified channel.
 
-## <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Message Leaderboard
+## Message Leaderboard
 
 This feature sends an automatic updating message leaderboard to the selected channel.
 

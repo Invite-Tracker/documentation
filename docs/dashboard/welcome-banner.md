@@ -18,8 +18,8 @@ To enable welcome banners, navigate to your server's **Join Messages** page on t
 2. Choose the banner type you want to configure — the same [sub-message types](/dashboard/messages/types#sub-message-types) as regular join messages (**Normal**, **Vanity**, **Bot**, **No-Perm** and **Unknown**)
 3. Use the banner editor to customize your design
 
-::: info
-<img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Banner types other than `Normal` are a Premium feature.
+::: info Premium feature
+Banner types other than `Normal` require [Invite Tracker Premium](/premium).
 :::
 
 ![Enable Banner](/assets/welcome-banner/enable-banner.png)
@@ -96,7 +96,7 @@ Templates provide a quick starting point. You can fully customize any template a
 | Gradients | Not available |
 | Image Blur | Not available |
 
-### <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Premium Features
+### Premium Features
 
 | Feature | Premium Limit |
 | --- | --- |
@@ -114,7 +114,7 @@ Templates provide a quick starting point. You can fully customize any template a
 Shapes can be customized with:
 
 - **Solid Colors** - Pick any color using the color picker
-- **<img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Gradients** - Create linear or radial gradient fills
+- **Gradients** *(Premium feature)* - Create linear or radial gradient fills
 
 ### Available Shapes
 
@@ -127,7 +127,7 @@ Shapes can be customized with:
 
 ## Image Effects
 
-### <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Blur Effect
+### Blur Effect
 
 Premium users can apply blur effects to images, which is useful for creating background effects or focusing attention on specific elements.
 

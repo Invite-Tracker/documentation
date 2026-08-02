@@ -32,7 +32,9 @@ The **Identity** tab controls the core ticket behavior.
 - **Ticket Count** is the current counter used by the `{counter}` naming tokens. New tickets increment it before naming.
 - **Opener Can Close** controls whether the member who opened the ticket can close it.
 
-<img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Custom naming patterns are a Premium feature. Free servers use the default `ticket-{counter:04}` pattern.
+::: info Premium feature
+Custom naming patterns require [Invite Tracker Premium](/premium). Free servers use the default `ticket-{counter:04}` pattern.
+:::
 
 ::: warning
 Free servers can configure 1 overflow category per template.
@@ -54,9 +56,9 @@ The **Messages** tab controls the first message sent inside a new ticket and the
 
 The **Initial Message** is posted in the ticket channel as soon as it opens. You can use plain text or a rich embed, and you can include ticket variables such as the ticket owner, channel, panel, template, and form answers.
 
-<img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> The **Close DM** is a Premium feature. It is sent to the ticket owner when the ticket closes. If transcripts are enabled, you can also attach an **Open transcript** button to this DM.
+The **Close DM** is a **Premium feature**. It is sent to the ticket owner when the ticket closes. If transcripts are enabled, you can also attach an **Open transcript** button to this DM.
 
-<img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> The **Satisfaction survey** is a Premium feature, also found on the Messages tab. When enabled, Invite Tracker DMs the ticket owner a 1–5 rating prompt after their ticket closes. Ratings power the CSAT score and staff insights on the [ticket analytics](./analytics) page.
+The **Satisfaction survey** is a **Premium feature**, also found on the Messages tab. When enabled, Invite Tracker DMs the ticket owner a 1–5 rating prompt after their ticket closes. Ratings power the CSAT score and staff insights on the [ticket analytics](./analytics) page.
 
 ![Ticket messages](/assets/tickets/message.png)
 
@@ -72,9 +74,11 @@ The close DM transcript button requires **Opener Access** to be enabled in the T
 The **Two Step Close** setting only applies to the close button. The `/ticket-close` command closes the ticket immediately.
 :::
 
-## <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Role Changes
+## Role Changes
 
-Ticket role changes are a Premium feature.
+::: info Premium feature
+Ticket role changes require [Invite Tracker Premium](/premium).
+:::
 
 The **Roles** tab lets you automatically add or remove roles from the ticket owner.
 
@@ -138,11 +142,15 @@ Important claiming settings:
 - **Claim Category** and **Claim Overflow Categories** move claimed tickets into another category.
 - **Add/Remove On Claim** and **Add/Remove On Unclaim** change roles on the ticket owner.
 
-<img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Advanced claiming is a Premium feature. This includes **Support Permission Mode**, **Claim Name**, **Claim Category**, **Claim Overflow Categories**, and the claim/unclaim role changes. Free servers can still claim and unclaim tickets and use the basic claiming settings.
+::: info Premium feature
+Advanced claiming requires [Invite Tracker Premium](/premium). This includes **Support Permission Mode**, **Claim Name**, **Claim Category**, **Claim Overflow Categories**, and the claim/unclaim role changes. Free servers can still claim and unclaim tickets and use the basic claiming settings.
+:::
 
-## <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Escalation
+## Escalation
 
-Ticket escalation is a Premium feature.
+::: info Premium feature
+Ticket escalation requires [Invite Tracker Premium](/premium).
+:::
 
 Escalation lets support members move an open ticket to another template by using `/ticket-escalate`.
 
@@ -203,7 +211,9 @@ Automation actions include:
 
 For message-based automations, you can choose whether Invite Tracker checks messages from anyone, only the ticket owner, or only the support team. You can also choose whether the automation checks once or keeps checking until it is stopped.
 
-<img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Advanced automations, including auto-closing inactive tickets, are a Premium feature.
+::: info Premium feature
+Advanced automations, including auto-closing inactive tickets, require [Invite Tracker Premium](/premium).
+:::
 
 ![Ticket automations](/assets/tickets/automation.png)
 

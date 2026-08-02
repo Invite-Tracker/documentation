@@ -37,7 +37,7 @@ Throughout this documentation, we will use special characters to represent speci
 - `< >` - These arguments are required and have to be added. (Do not add the `< >` brackets)
 - `[ ]` - These arguments are optional and may not be added. (Do not add the `[ ]` brackets)
 - `option1|option2` - Select only one of the given options.
-- :star: - Features next to this icon are premium features.
+- **Premium feature** - Features marked with this note require [Invite Tracker Premium](/premium).
 
 ### Color Codes/Fonts
 
@@ -65,4 +65,8 @@ Information one should keep in mind when using a specific feature.
 
 ::: danger
 Important warnings regarding potentially server-breaking features.
+:::
+
+::: info Premium feature
+This box marks a feature that requires [Invite Tracker Premium](/premium). Premium features are always explicitly labeled as such in this documentation.
 :::
