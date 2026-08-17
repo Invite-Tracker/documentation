@@ -118,3 +118,41 @@ Please make sure you have double checked all of these possible reasons. If you h
 If there are some roles missing in the role selector on your dashboard, it means Invite Tracker's role is not set high enough in the role hierarchy.
 
 To change this, head to your Server Settings -> Roles and drag the Invite Tracker role up above the roles you want to be able to select.
+
+## Why is Invite Tracker inviting me to servers?
+
+Did you receive DMs from Invite Tracker or were you added to servers without your knowing?
+
+Invite Tracker **does not** add you to servers **nor** does it randomly DM you messages.
+
+You are receiving a "Join DM" because the server your account joined setup the bot to send the message.
+
+If you would like to delete the messages you can follow the instructions below 
+- **PC:**  Right click the Message -> Hover over **Apps** and click **Delete Message**.
+- **Mobile:** Tap and hold the message -> Tap **Apps** and tap **Delete Message**.
+
+If you did not join the server, you need to secure your account. Go to your **User Settings** -> **Authorized Apps**. You will want to look for any applications that contain "Join servers for you" and **Deauthorize** them.
+
+Please read through the following Discord article if your account was [hacked or compromised](https://support.discord.com/hc/en-us/articles/24160905919511-My-Discord-Account-was-Hacked-or-Compromised). It also contains tips on how to secure your account.
+
+## Why is Invite Tracker asking me to login when verifying?
+Malicious actors are running bots and websites that are impersonating Invite Tracker to steal Discord accounts. 
+
+Please make sure you are only trusting the official **Invite Tracker** bot.
+- **Bot ID:** `720351927581278219`  
+- **Bot Tag:** `Invite Tracker#0478`
+
+Invite Tracker will **never** ask you to do the following to verify into a server. 
+- Scan a QR code
+- Drag anything into a bookmark
+- Sign in with your Crypto/NFT Wallet
+- Ask you to download a file
+- Or any other unofficial verification method
+
+Only verify through the **official** Invite Tracker website: <https://invite-tracker.com>
+
+Do **not** trust any other websites or bots claiming to be Invite Tracker. If you're on a different website or being asked to authorize by a different bot, do not log in and do not authorize anything.
+
+If you encounter a fake bot, report it:
+- Directly to Discord: https://dis.gd/report
+- In our support channel with the **User ID** and **Server Link**
