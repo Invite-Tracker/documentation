@@ -26,4 +26,6 @@ Invite Tracker by default only asks for the permissions required for it to work.
 
 Once Invite Tracker has been invited to your server, if you invited it with the required permissions, it will already begin tracking new invites!
 
-If you want to jump right into having Invite Tracker announce new members, you should check out Invite Tracker's [join, join DM, and leave message](/dashboard/messages/) features.
+When the bot joins your server for the first time, it also posts a setup panel that shows whether invite tracking is working and lets you enable join messages by simply picking a channel. You can reopen this panel at any time with the `/setup` command (requires the *Manage Server* permission).
+
+If you want to fully customize how Invite Tracker announces new members, you should check out Invite Tracker's [join, join DM, and leave message](/dashboard/messages/) features.

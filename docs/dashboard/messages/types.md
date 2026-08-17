@@ -28,7 +28,7 @@ Invite Tracker allows each user to have a specific amount of **regular**, **left
 | Type | Description |
 | --- | --- |
 | `Normal` | The message sent when the user joined the server via "normal" means. |
-| <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> `Vanity` | The message sent when the user joined the server via a vanity link. Configuring this message type is a Premium feature. |
+| `Vanity` | The message sent when the user joined the server via a vanity link. Configuring this message type is a **Premium feature**. |
 | `Bot` | The message sent when a bot joined/left the server. |
 | `No-Perm` | The message sent when Invite Tracker does not have enough permissions to see how a user joined. |
 | `Unknown` | The message sent when Invite Tracker does not know how a user joined the server. |

@@ -13,7 +13,11 @@ When a new member joins your server, Invite Tracker checks how old their Discord
 
 This helps server owners identify inviters who may be using alt accounts or bots to inflate their invite counts.
 
-## <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Fake Delay
+## Fake Delay
+
+::: info Premium feature
+Customizing the *fake delay* requires [Invite Tracker Premium](/premium). Every server otherwise uses the default value.
+:::
 
 The *fake delay* of your server is the number of days old an account has to be when joining to not be counted as a fake invite. For example, if you set your server's *fake delay* to 5 days and an account that is 4 days old joins your server, the person who invited that account will gain a regular invite and a fake invite. The explanation of every invite type can be found [here](/dashboard/messages/types#invite-types).
 
@@ -67,7 +71,11 @@ Premium servers can have a maximum amount of 100 invite-blacklisted users.
 Be careful not to blacklist the wrong users.
 :::
 
-## <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Role Blacklist
+## Role Blacklist
+
+::: info Premium feature
+Blacklisting roles from gaining invites requires [Invite Tracker Premium](/premium).
+:::
 
 This is where you blacklist entire roles from gaining invites. Members with any of the selected roles do not gain any invites when someone joins through their invite links. Welcome/leave messages are not affected by this.
 
@@ -79,10 +87,6 @@ This is useful to keep staff, moderators, or bot-managed roles out of invite rew
 Whether a join grants an invite is decided by the roles the inviter holds at the time of the join. Nothing is changed retroactively: invites gained before a role was blacklisted are kept, and joins that were not counted are not granted back when the role is removed.
 
 The blacklist can take a short moment to start applying to new joins right after you configure it.
-:::
-
-::: warning
-Blacklisting roles from gaining invites is exclusive to premium servers.
 :::
 
 ## Hidden From Leaderboard
@@ -129,7 +133,7 @@ The auto-role from invite labels is applied in addition to any [auto roles](/das
 ::: tip
 You can use the `%invite_label%` variable for your join, join DM, and leave messages so it will show the label name (or its invite code if no label is set).
 
-<img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> You can also search who joined from a specific label by using the `/invitedlist` command.
+You can also search who joined from a specific label by using the `/invitedlist` command (a **Premium feature**).
 :::
 
 ::: warning

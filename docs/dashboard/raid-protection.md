@@ -18,7 +18,7 @@ Once tripped, the raid response stays active for your configured **response dura
 ![Raid Detection](/assets/raid-protection/raid-detection.png)
 
 ::: info
-Free servers run the stock thresholds (10 joins/minute, 60% young-account ratio, 7-day account age, 10-minute response). Customizing them requires <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Premium.
+Free servers run the stock thresholds (10 joins/minute, 60% young-account ratio, 7-day account age, 10-minute response). Customizing them requires [Invite Tracker Premium](/premium).
 :::
 
 ## Raid Alerts
@@ -36,12 +36,16 @@ Every alert comes with one-click response buttons:
 When the response ends, a summary is posted with the final numbers and a last chance to ban the captured cohort — or to [`/massban`](/commands/administration) by one of the flagged invite codes for a more surgical sweep.
 
 ::: warning
-The response buttons require the **Manage Server** permission. All buttons except **Pause invites** and **False alarm** require <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Premium.
+The response buttons require the **Manage Server** permission. All buttons except **Pause invites** and **False alarm** require [Invite Tracker Premium](/premium).
 
 Invite Tracker itself needs the **Kick Members**, **Ban Members** and **Manage Server** permissions (with a role above the raiders) for the kick, ban and invite-pause actions to work.
 :::
 
-## <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Automatic Response
+## Automatic Response
+
+::: info Premium feature
+The automatic raid response requires [Invite Tracker Premium](/premium).
+:::
 
 With **Respond automatically** enabled, the actions you pick are applied within seconds of a raid tripping — no admin needed:
 
@@ -56,7 +60,11 @@ With **Respond automatically** enabled, the actions you pick are applied within 
 **Force verification** needs a working verification setup: configure it on the [Verification](/dashboard/verification) page and send a verification panel first. Without one, this action is skipped and the alert tells you so.
 :::
 
-## <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Manual Lockdown
+## Manual Lockdown
+
+::: info Premium feature
+Manual lockdowns (`/lockdown start` and `/lockdown end`) require [Invite Tracker Premium](/premium).
+:::
 
 The `/lockdown start` command activates the raid response on demand — useful before an announced event or the moment you spot trouble yourself. It pauses invites, pauses invite crediting and applies your configured response actions for the chosen duration (5–120 minutes, defaulting to your response duration). `/lockdown end` lifts it early and restores paused invites.
 
@@ -73,5 +81,5 @@ Every raid and lockdown is recorded with its trigger, duration, join counts, the
 ![Incident History](/assets/raid-protection/incident-history.png)
 
 ::: info
-Free servers keep **3 days** of incident history. <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Premium servers keep it forever.
+Free servers keep **3 days** of incident history. Premium servers keep it forever.
 :::

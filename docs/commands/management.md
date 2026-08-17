@@ -11,7 +11,11 @@ The explanation for all the management commands available for Invite Tracker.
 | `/addbonus <@user> <amount>` | Adds the specified amount of bonus invites to the specified member |
 | `/removebonus <@user> <amount>` | Removes the specified amount of bonus invites from the specified member |
 
-### :star: Fake Invites
+### Fake Invites
+
+::: info Premium feature
+The fake invite commands (`/addfakeinvites` and `/removefakeinvites`) require [Invite Tracker Premium](/premium).
+:::
 
 | Command | Description |
 | --- | --- |

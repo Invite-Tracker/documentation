@@ -59,7 +59,11 @@ The explanation of how fake invites are detected can be found [here](/dashboard/
 
 This section lists the invite links that brought the most members during the selected period. If an invite has an [invite label](/dashboard/invite-tracking#invite-labels), the label is shown under the invite code — perfect for tracking campaigns like a YouTube description link or a partner server.
 
-## <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Top Inviters
+## Top Inviters
+
+::: info Premium feature
+Top inviters require [Invite Tracker Premium](/premium). Free servers see a locked preview of this section.
+:::
 
 This section ranks your inviters for the selected period and shows the quality of their invites:
 
@@ -68,15 +72,15 @@ This section ranks your inviters for the selected period and shows the quality o
 - **Fake**: how many joins were flagged as fake
 - **Retention**: the percentage of their real invites that are still on the server
 
-::: warning
-Top inviters are a premium feature. Free servers see a locked preview of this section.
-:::
-
 ::: info
 Inviters who left your server a long time ago may occasionally be shown by their user ID instead of their name.
 :::
 
-## <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Export CSV
+## Export CSV
+
+::: info Premium feature
+Exporting analytics as CSV requires [Invite Tracker Premium](/premium).
+:::
 
 Premium servers can export the raw join and leave events of the selected period as a `.csv` file for external analysis. Each row contains the timestamp, event type, member, inviter, invite code, join type and fake flag.
 

@@ -64,6 +64,8 @@ Keep in mind that just giving the permissions to its role sometimes may not work
 
 If you want to give Invite Tracker all permissions without any more hassle, you may grant *Administrator* to the Invite Tracker role. By default when adding the bot, *Administrator* is already applied.
 
+To quickly check whether something is missing, run `/check-permissions` in the channel you are having trouble with, or `/setup` for an overall health check of the bot in your server.
+
 | Permission | Usage |
 | --- | --- |
 | `Administrator` | Grants all permissions |
@@ -72,6 +74,7 @@ If you want to give Invite Tracker all permissions without any more hassle, you 
 | `Manage Channels` | Needed to create and manage ticket channels and to see invites created in a channel for tracking invites |
 | `Kick Members` | Needed to kick members for verification action |
 | `Ban Members` | Needed to ban members for verification action or for mass bans |
+| `Moderate Members` | Needed to time out members, such as for honeypot actions |
 | `View Channel` | Needed to view messages so it can either respond to or track them |
 | `Send Messages` | Needed to respond to commands, edit messages, and send join/leave/test messages |
 | `Pin Messages` | Needed to pin leaderboards and pin ticket messages |

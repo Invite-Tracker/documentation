@@ -1,4 +1,8 @@
-# <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Pin Statistics
+# Pin Statistics
+
+::: info Premium feature
+The pin statistics plugin requires [Invite Tracker Premium](/premium).
+:::
 
 The pin statistics plugin lets you create self-updating stats which are automatically sent and pinned in the selected channel. The pinned statistics automatically update every 15 minutes.
 
@@ -15,19 +19,19 @@ When you enable pinned statistics:
 Statistics graphs show historical data, making them useful for tracking growth trends and identifying patterns in member activity.
 :::
 
-## <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Join Statistics
+## Join Statistics
 
 This feature sends an automatically updating join statistics embed to the selected channel.
 
 ![Join Statistics](/assets/pin-statistics/join-stats.png)
 
-## <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Leave Statistics
+## Leave Statistics
 
 This feature sends an automatically updating leave statistics embed to the selected channel.
 
 ![Leave Statistics](/assets/pin-statistics/leave-stats.png)
 
-## <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Combined Statistics
+## Combined Statistics
 
 This feature sends an automatically updating combined statistics embed to the selected channel. The combined view shows both joins (typically in green) and leaves (typically in red) on the same graph, making it easy to see net member growth.
 

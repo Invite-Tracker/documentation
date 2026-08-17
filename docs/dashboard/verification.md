@@ -88,7 +88,11 @@ The *panel channel* of your server is the channel where the verification panel w
 Remember to give Invite Tracker the correct [permissions](/faq#what-are-the-required-permissions-for-invite-tracker) so it can post verification messages.
 :::
 
-## <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Custom Embed
+## Custom Embed
+
+::: info Premium feature
+The custom verification embed requires [Invite Tracker Premium](/premium).
+:::
 
 *Custom embed* allows you to customize the embed used on the verification panel in your [panel channel](#panel-channel).
 

@@ -2,7 +2,7 @@
 
 Custom Bots let you run an instance of Invite Tracker on your own application.
 
-::: warning
+::: info Premium feature
 This feature requires the **Custom Bot** tier of Invite Tracker Premium. You can purchase it [here](https://invite-tracker.com/premium) and read about what it offers.
 :::
 

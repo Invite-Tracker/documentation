@@ -1,6 +1,6 @@
 # Join, Join DM, and Leave Messages
 
-These plugins let you create highly customizable join, join DM and leave messages. You can use text messages, rich embeds (Premium), or even dynamic image banners (Premium) to welcome new members.
+These plugins let you create highly customizable join, join DM and leave messages. You can use text messages, rich embeds (a Premium feature), or even dynamic image banners to welcome new members.
 
 ## Useful Information
 
@@ -27,6 +27,10 @@ You can find the complete list of variables [here](./variables).
 :::
 
 ## Configuration
+
+::: tip
+Join messages can also be enabled without the dashboard: pick a channel on the setup panel the bot posts when it joins your server, or run `/setup` in your server. This enables them with the default message and posts a sample right away — the dashboard remains the place to customize the wording, embeds and banners.
+:::
 
 ### Enabled
 
@@ -64,8 +68,8 @@ There is automatically a join/leave message set by default that can be used as s
 A list explaining all the different sub-message types and their use can be found [here](./types#sub-message-types).
 :::
 
-::: info
-<img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Configuring the `Vanity` sub-message type is a Premium feature.
+::: info Premium feature
+Configuring the `Vanity` sub-message type requires [Invite Tracker Premium](/premium).
 :::
 
 ## The Message
@@ -96,7 +100,11 @@ If your test message does not appear, you need to ensure the bot has the [correc
 Remember to turn on join messages after finishing configuring your message by clicking the upper-most switch.
 :::
 
-## <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Embed
+## Embed
+
+::: info Premium feature
+Rich embeds for join and leave messages require [Invite Tracker Premium](/premium).
+:::
 
 Embeds are a cool way to make *join* and *leave messages*. Embeds bring a lot more customization to the table. You can configure anything from a 5-part story about a potato falling in love with a green rock, or you could configure the message to display all the variables, their function, and where to use them. Trust me, I have done it.
 
@@ -167,9 +175,13 @@ Pay attention to the small numbers under a few of the text boxes and buttons. Th
 You cannot use embeds for join DM messages.
 :::
 
-## <img src="/assets/premium.png" alt="Premium" style="display: inline; height: 1.2em; vertical-align: middle;" /> Welcome Banners
+## Welcome Banners
 
-In addition to text and embed messages, Premium users can create dynamic image banners that are sent when members join. Welcome banners allow you to create visually stunning welcome messages with:
+::: info Premium feature
+Basic welcome banners (the `Normal` banner type with limited design elements) are free. All other banner types and the advanced design features require [Invite Tracker Premium](/premium) — see the [free vs premium banner features](/dashboard/welcome-banner#free-vs-premium-features).
+:::
+
+In addition to text and embed messages, you can create dynamic image banners that are sent when members join. Welcome banners allow you to create visually stunning welcome messages with:
 
 - Custom backgrounds and images
 - The joining member's avatar
