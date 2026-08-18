@@ -118,3 +118,9 @@ Please make sure you have double checked all of these possible reasons. If you h
 If there are some roles missing in the role selector on your dashboard, it means Invite Tracker's role is not set high enough in the role hierarchy.
 
 To change this, head to your Server Settings -> Roles and drag the Invite Tracker role up above the roles you want to be able to select.
+
+## Why are some channels missing from the channel selector?
+
+Invite Tracker only lists channels it can view. If a channel is missing from a channel selector on your dashboard, grant the Invite Tracker role the **View Channel** permission in that channel and it will appear again.
+
+If a channel you previously selected shows as *Hidden channel* with a warning, Invite Tracker can no longer view that channel. Your selection is kept, but the feature will not work until you restore the **View Channel** permission or pick another channel.
