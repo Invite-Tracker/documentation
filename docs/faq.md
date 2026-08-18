@@ -156,3 +156,8 @@ Do **not** trust any other websites or bots claiming to be Invite Tracker. If yo
 If you encounter a fake bot, report it:
 - Directly to Discord: https://dis.gd/report
 - In our support channel with the **User ID** and **Server Link**
+## Why are some channels missing from the channel selector?
+
+Invite Tracker only lists channels it can view. If a channel is missing from a channel selector on your dashboard, grant the Invite Tracker role the **View Channel** permission in that channel and it will appear again.
+
+If a channel you previously selected shows as *Hidden channel* with a warning, Invite Tracker can no longer view that channel. Your selection is kept, but the feature will not work until you restore the **View Channel** permission or pick another channel.
