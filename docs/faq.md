@@ -83,6 +83,9 @@ To quickly check whether something is missing, run `/check-permissions` in the c
 | `Read Message History` | Needed to view older messages to edit them (such as pinned leaderboards and giveaways) and to save ticket transcripts |
 | `Add Reactions` | Needed to react to join/leave messages |
 | `Use External Emojis` | Needed to use server emojis in your join/leave messages |
+| `Manage Messages` | Needed by the honeypot to delete the messages of members who post in the trap channel |
+| `Mention Everyone` | Needed to ping roles that are not mentionable, such as giveaway ping roles and ticket support roles |
+| `Create Public Threads`, `Create Private Threads`, `Send Messages in Threads` | Only needed to create the honeypot channel: the bot blocks threads in it so messages cannot slip past the trap, and Discord only lets a bot deny permissions it holds itself |
 
 ## Why are invites not counting?
 
