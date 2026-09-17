@@ -18,7 +18,7 @@ More information on how to use the dashboard can be found [here](/dashboard/).
 
 ## Getting Started
 
-Firstly, make sure that Invite Tracker is in the server you are looking to use it in. If not, you may invite it by clicking [here](https://invite.invite-tracker.com/).
+Firstly, make sure that Invite Tracker is in the server you are looking to use it in. If not, you may invite it by clicking [here](https://invite-tracker.com/invite?utm_source=docs).
 
 Invite Tracker by default only asks for the permissions required for it to work. We highly recommend that you make sure you are inviting it with the required permissions. Otherwise, the bot may not work properly. If you want to know more details about why we are asking for specific permissions, read the [FAQ](/faq).
 
