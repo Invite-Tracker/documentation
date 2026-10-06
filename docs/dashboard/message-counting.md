@@ -70,6 +70,30 @@ Premium servers can have a maximum amount of 100 blacklisted users.
 Be careful not to blacklist the wrong users.
 :::
 
+## Whitelisted Roles
+
+::: info Premium feature
+Whitelisting roles for message counting requires [Invite Tracker Premium](/premium).
+:::
+
+This is where you can restrict message counting to specific roles. You can find it in the **Counting whitelist** card. Once at least one role is whitelisted, only users who have at least one of the whitelisted roles will have their messages counted; everyone else's messages are ignored.
+
+The whitelist works together with the blacklists: a user with a whitelisted role still does not have their messages counted in a blacklisted channel, or if they also have a blacklisted role, or if they are a blacklisted member.
+
+![Role Messages Whitelist](/assets/message-counting/role-whitelist.png)
+
+::: tip
+A common setup is to whitelist your "Member" or "Verified" role so that only verified members climb the message leaderboard.
+:::
+
+::: info
+The whitelist can take a short moment to start applying after saving. If your server's premium expires, the whitelist stops applying and messages from every user are counted again.
+:::
+
+::: warning
+Premium servers can have a maximum of 25 whitelisted roles. Leave the whitelist empty to count messages from every user.
+:::
+
 ## Highest Mode
 
 This switch decides the effect of the [reward roles](#reward-roles) feature for the message counting plugin.
